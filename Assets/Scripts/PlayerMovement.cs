@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(PlayerInput))]
@@ -5,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
 
-    [SerializeField] private float dashForce = 5f;
+    [SerializeField] private float dashForce = 100f;
     
     [SerializeField] private LayerMask whatIsPit;
     
@@ -18,7 +19,12 @@ public class PlayerMovement : MonoBehaviour
         _Input = GetComponent<PlayerInput>();
         _Rigidbody2D = GetComponent<Rigidbody2D>();
     }
-    
+
+    private void Update()
+    {
+        Dash();
+    }
+
     private void FixedUpdate()
     {
         _Rigidbody2D.velocity = 
@@ -27,9 +33,10 @@ public class PlayerMovement : MonoBehaviour
     
     private void Dash()
     {
-        if (_Input.downDash)
+        if (_Input.dash)
         {
-            _Rigidbody2D.AddForce(Vector2.down * dashForce, ForceMode2D.Impulse);
+            print("dash");
+            _Rigidbody2D.AddForce(_Input.moveVector * dashForce, ForceMode2D.Impulse);
         }
     }
 }
