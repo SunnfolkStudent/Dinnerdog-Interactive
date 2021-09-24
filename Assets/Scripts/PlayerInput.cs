@@ -4,8 +4,6 @@ using UnityEngine.InputSystem;
 public class PlayerInput : MonoBehaviour
 {
     [HideInInspector] public Vector2 moveVector;
-    [HideInInspector] public bool jump;
-    [HideInInspector] public bool longJump;
     [HideInInspector] public bool downDash;
     
     private void Update()
