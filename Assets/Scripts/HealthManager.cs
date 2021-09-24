@@ -1,18 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthManager : MonoBehaviour
+namespace Managers
 {
-    // Start is called before the first frame update
-    void Start()
+    public class HealthManager : MonoBehaviour
     {
+        public static int lives = 3;
+        public int maxLives = 3;
         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        private void Awake()
+        {
+            lives = maxLives;
+        }
+        
+        public static void SetLives(int value)
+        {
+            lives = value;
+        }
+        
+        public static void AddLives()
+        {
+            lives++;
+        }
+        
+        public static void ReduceLives()
+        {
+            lives--;
+        }
         
     }
 }
