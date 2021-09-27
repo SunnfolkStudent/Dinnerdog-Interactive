@@ -6,6 +6,7 @@ public class PlayerInput : MonoBehaviour
     [HideInInspector] public Vector2 moveVector;
     [HideInInspector] public bool dash;
     [HideInInspector] public bool interact;
+    [HideInInspector] public bool attack;
     
     private void Update()
     {
@@ -14,5 +15,6 @@ public class PlayerInput : MonoBehaviour
         
         dash = Keyboard.current.spaceKey.wasPressedThisFrame;
         interact = Keyboard.current.fKey.wasPressedThisFrame;
+        attack = Keyboard.current.jKey.wasPressedThisFrame;
     }
 }
