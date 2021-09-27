@@ -12,17 +12,17 @@ namespace Managers
             enemyLives = maxEnemyLives;
         }
         
-        public static void SetEnemyLives(int value)
+        public  void SetEnemyLives(int value)
         {
             enemyLives = value;
         }
         
-        public static void AddEnemyLives()
+        public void AddEnemyLives()
         {
             enemyLives++;
         }
         
-        public static void ReduceEnemyLives()
+        public void ReduceEnemyLives()
         {
             enemyLives--;
         }
