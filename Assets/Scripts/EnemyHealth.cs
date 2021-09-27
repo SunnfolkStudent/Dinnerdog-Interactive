@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Managers
@@ -33,5 +34,12 @@ namespace Managers
             print("enemy damage taken");
         }
 
+        private void Update()
+        {
+            if (enemyLives <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 }

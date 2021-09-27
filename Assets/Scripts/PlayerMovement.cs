@@ -23,6 +23,11 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         Dash();
+
+        if (_Input.moveVector.x != 0)
+        {
+            transform.localScale = new Vector3(_Input.moveVector.x, 1f, 1f);
+        }
     }
 
     private void FixedUpdate()

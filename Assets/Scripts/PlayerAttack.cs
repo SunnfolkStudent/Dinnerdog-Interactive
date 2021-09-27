@@ -27,7 +27,7 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timeBtwAttack <=0)
+        if (timeBtwAttack <= 0)
         {
             print("time between is OK");
             //then you can attack
@@ -40,12 +40,13 @@ public class PlayerAttack : MonoBehaviour
                 {
                     enemiesToDamage[i].GetComponent<EnemyHealth>().EnemyTakeDamage(damage);
                 }
+                timeBtwAttack = startTimeBtwAttack;
             }
-            timeBtwAttack = startTimeBtwAttack;
+            
         }
         else
         {
-            timeBtwAttack -= Time.deltaTime;
+            timeBtwAttack -= 1 * Time.deltaTime;
         }
     }
 
