@@ -26,6 +26,12 @@ namespace Managers
         {
             enemyLives--;
         }
-        
+
+        public void EnemyTakeDamage(int damage)
+        {
+            enemyLives -= damage;
+            print("enemy damage taken");
+        }
+
     }
 }
