@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 3240130474173057196}
   - component: {fileID: 3240130474173057189}
   - component: {fileID: 3240130474173057192}
+  - component: {fileID: -3707588984408031603}
+  - component: {fileID: 8082664626610939378}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -195,3 +197,34 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 0.7}
   m_Direction: 1
+--- !u!114 &-3707588984408031603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3240130474173057197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d4ceae1c09db8744812142de1ccd8c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &8082664626610939378
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3240130474173057197}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ec47733ecd020a54f96eaf2cdeee04ec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
