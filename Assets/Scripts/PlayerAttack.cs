@@ -8,12 +8,16 @@ public class PlayerAttack : MonoBehaviour
 {
 
     private float timeBtwAttack;
+    [Header("Attack cooldown in seconds")]
     public float startTimeBtwAttack;
 
+    [Header("Attack positions")]
     public Transform attackPos;
     public Transform attackPosUp;
     public Transform attackPosDown;
+    [Header("Select enemy")]
     public LayerMask whatIsEnemies;
+    [Header("Attack stats")]
     public float attackRange;
     public int damage;
     private int _moveDirection;

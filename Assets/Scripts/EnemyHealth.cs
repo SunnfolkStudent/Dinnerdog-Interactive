@@ -5,7 +5,10 @@ namespace Managers
 {
     public class EnemyHealth : MonoBehaviour
     {
+        [Header("Current enemy lives")]
         public int enemyLives = 3;
+        
+        [Header("Max Lives")]
         public int maxEnemyLives = 3;
         
         private void Awake()
