@@ -14,7 +14,7 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene(sceneNumber);
     }
     
-    public static void ResetScene()
+    public void ResetScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

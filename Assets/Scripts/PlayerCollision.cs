@@ -1,18 +1,32 @@
-using System.Collections;
-using System.Collections.Generic;
+using Managers;
 using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private LayerMask whatIsPit;
+    [SerializeField] private LayerMask whoIsEnemy;
+
+    private SceneController sceneControl;
+    private HealthManager healthManager;
+
+    private void Start()
     {
-        
+        sceneControl = GetComponent<SceneController>();
+        healthManager = GetComponent<HealthManager>();
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.CompareTag("Pit"))
+        {
+            healthManager.ReduceLives();
+            sceneControl.ResetScene();
+        }
+
+        if (other.CompareTag("Enemy"))
+        {
+            healthManager.ReduceLives();
+        }
     }
 }
