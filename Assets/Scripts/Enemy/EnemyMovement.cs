@@ -32,9 +32,8 @@ public class EnemyMovement : MonoBehaviour
             _lastetDirectionChangeTime = Time.time;
             calculateNewMovementVector();
         }
-
         //move enemy
-        transform.position = new Vector2(transform.position.x + (_movementPerSecond.x * Time.deltaTime),
+        transform.position = new Vector2(transform.position.x + (_movementPerSecond.x * Time.deltaTime), 
             transform.position.y + (_movementPerSecond.y * Time.deltaTime));
     }
     
@@ -49,7 +48,7 @@ public class EnemyMovement : MonoBehaviour
     
     private void OnCollisionStay2D(Collision2D other)
     {
-        if (other.transform.CompareTag("Wall"))
+        if (other.transform.CompareTag("Pit"))
         {
             calculateNewMovementVector();
         }
