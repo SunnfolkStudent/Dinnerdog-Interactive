@@ -37,19 +37,19 @@ public class NewPlayerAnimation : MonoBehaviour
 
         if (_playerInput.moveVector.y > 0)
         {
-            _animator.Play("Player_Up");
+            _animator.Play("PlayerMoveUp");
         }
         else if (_playerInput.moveVector.y < 0)
         {
-            _animator.Play("Player_Down");
+            _animator.Play("PlayerMoveDown");
         }
         else if (_playerInput.moveVector.x != 0)
         {
-            _animator.Play("Player_Run");
+            _animator.Play("PlayerWalk");
         }
         else
         {
-            _animator.Play("Idle");
+            _animator.Play("PlayerIdle");
         }
     }
 }
