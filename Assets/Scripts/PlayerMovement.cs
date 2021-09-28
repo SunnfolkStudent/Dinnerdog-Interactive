@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float dashForce = 15f;
     public float dashTime = 0.3f;  //WaitForSeconds in IEnumerator
     public float dashCooldown = 2;
-    private bool isDashing = false;
+    public bool isDashing = false;
     
     
     private void Start()

@@ -1,17 +1,23 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerInteract : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [Space(5)] 
+    public string MainMenu;
+    public string WinSceen;
+    public bool canInteract;
+
+    private PlayerInput _input;
+    
+    private void Start()
     {
-        
+        _input = GetComponent<PlayerInput>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         
     }
