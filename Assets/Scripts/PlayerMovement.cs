@@ -1,18 +1,27 @@
 using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(PlayerInput))]
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 5f;
-
-    [SerializeField] private float dashForce = 100f;
+    //Components
+    private PlayerInput _Input;
+    private Rigidbody2D _Rigidbody2D;
     
+    [Header("Movement")]
+    [SerializeField] private float moveSpeed = 5f;
+    
+    [Header("Pits")]
     [SerializeField] private LayerMask whatIsPit;
     
-    private PlayerInput _Input;
+    [Header("Dash")]
+    [SerializeField] private float dashForce = 15f;
+    public float dashTime = 0.3f;  //WaitForSeconds in IEnumerator
+    public float dashCooldown = 2;
+    private bool isDashing = false;
     
-    private Rigidbody2D _Rigidbody2D;
     
     private void Start()
     {
@@ -22,29 +31,23 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        Dash();
-
-        if (_Input.moveVector.x != 0)
+        if (_Input.dash && !isDashing)
         {
-            transform.localScale = new Vector3(_Input.moveVector.x, 1f, 1f);
+            StartCoroutine(Dash());
+        }
+        else if (!isDashing)
+        {
+            _Rigidbody2D.velocity = new Vector2(_Input.moveVector.x * moveSpeed, _Input.moveVector.y * moveSpeed);
         }
     }
 
-    private void FixedUpdate()
+    private IEnumerator Dash()
     {
-        _Rigidbody2D.velocity = 
-            new Vector2(_Input.moveVector.x * moveSpeed, _Input.moveVector.y * moveSpeed);
-    }
-    
-    private void Dash()
-    {
-        if (_Input.dash)
-        {
-            print("dash");
-            _Rigidbody2D.AddForce(_Input.moveVector * dashForce, ForceMode2D.Impulse);
-        }
+        isDashing = true;
+        print("dash");
+        _Rigidbody2D.velocity = _Input.moveVector * dashForce;
+        yield return new WaitForSeconds(0.3f);
+        _Rigidbody2D.velocity = Vector2.zero;
+        isDashing = false;
     }
 }
-
-
-
