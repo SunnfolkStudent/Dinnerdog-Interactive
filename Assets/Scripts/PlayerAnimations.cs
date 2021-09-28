@@ -1,55 +1,38 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAnimations : MonoBehaviour
 {
-    #region Variables
-    
     private Animator _animator;
-    private PlayerInput _playerInput;
-    private PlayerMovement _movement;
-    private PlayerCollision _collision;
+    private PlayerMovement _playerMovement;
+    private Rigidbody2D _rigibody;
+    private PlayerInput _input;
 
-    private Rigidbody2D _rigidbody2D;
-    
-    #endregion
-    
-    // Start is called before the first frame update
-    void Start()
+    private readonly int _sideWalk = Animator.StringToHash("SideWalk");
+    private readonly int _upDown = Animator.StringToHash("UpDown");
+
+    private void Start()
     {
         _animator = GetComponent<Animator>();
-        _playerInput = GetComponent<PlayerInput>();
-        _rigidbody2D = GetComponent<Rigidbody2D>();
-        _movement = GetComponent<PlayerMovement>();
-        _collision = GetComponent<PlayerCollision>();
-
-
+        _playerMovement = GetComponent<PlayerMovement>();
+        _rigibody = GetComponent<Rigidbody2D>();
+        _input = GetComponent<PlayerInput>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        if (_playerInput.moveVector.x != 0)
+        _animator.SetFloat(_sideWalk, _input.moveVector.x);
+        _animator.SetFloat(_upDown, _input.moveVector.y);
+        
+        if (_input.moveVector.x > 0)
         {
-            transform.localScale = new Vector2(_playerInput.moveVector.x, 1f);
+            transform.localScale = new Vector2 (-1f, 1f);
         }
-
-        if (_playerInput.moveVector.y > 0)
+        else if (_input.moveVector.x < 0)
         {
-            _animator.Play("PlayerMoveUp");
-        }
-        else if (_playerInput.moveVector.y < 0)
-        {
-            _animator.Play("PlayerMoveDown");
-        }
-        else if (_playerInput.moveVector.x != 0)
-        {
-            _animator.Play("PlayerWalk");
-        }
-        else
-        {
-            _animator.Play("PlayerIdle");
+            transform.localScale = new Vector3(1f, 1f);
         }
     }
 }

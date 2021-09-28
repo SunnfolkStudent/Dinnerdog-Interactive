@@ -28,7 +28,8 @@ public class EnemyAnimations : MonoBehaviour
         if(_enemyMovement._movementDirection.x > 0)
         {
             transform.localScale = new Vector2(-1f, 1f);
-        } else if(_enemyMovement._movementDirection.x < 0)
+        } 
+        else if(_enemyMovement._movementDirection.x < 0)
         {
             transform.localScale = new Vector2(1f, 1f);
         }
