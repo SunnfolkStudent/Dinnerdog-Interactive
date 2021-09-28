@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 5831257641786309551}
   - component: {fileID: 5831257641786309550}
   - component: {fileID: 5831257641786303569}
-  - component: {fileID: 5831257641786303568}
   - component: {fileID: 5831257641786303571}
   - component: {fileID: 5831257641786303570}
   - component: {fileID: 5831257641786303573}
+  - component: {fileID: 427437309739615762}
   m_Layer: 0
   m_Name: Rat
   m_TagString: Enemy
@@ -100,18 +100,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ff5aa156d5795d418c5d2ef304a4634, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5831257641786303568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5831257641786303572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7be34e73f0016584e9c8d2ac0d6b70d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5831257641786303571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,3 +150,29 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &427437309739615762
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5831257641786303572}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.059499428}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.8810011}
+  m_EdgeRadius: 0
