@@ -34,7 +34,7 @@ public class NewPlayerAnimation : MonoBehaviour
         {
             transform.localScale = new Vector2(_playerInput.moveVector.x, 1f);
         }
-        
+
         if (_playerInput.moveVector.y > 0)
         {
             _animator.Play("Player_Up");
@@ -43,12 +43,7 @@ public class NewPlayerAnimation : MonoBehaviour
         {
             _animator.Play("Player_Down");
         }
-        else
-        {
-            _animator.Play("Idle");
-        }
-        
-        if (_playerInput.moveVector.x !=0)
+        else if (_playerInput.moveVector.x != 0)
         {
             _animator.Play("Player_Run");
         }
