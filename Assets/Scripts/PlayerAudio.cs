@@ -25,14 +25,13 @@ public class PlayerAudio : MonoBehaviour
     }
     private void Update()
     {
-        
+        BarkAudio();
     }
 
     private void BarkAudio()
     {
         if (_Input.attack)
         {
-            _AudioSource.pitch =
             _AudioSource.PlayOneShot(BIGDOG);
         }
     }
