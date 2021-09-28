@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewPlayerAnimation : MonoBehaviour
+public class PlayerAnimations : MonoBehaviour
 {
     #region Variables
     
