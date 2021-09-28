@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Managers
@@ -6,6 +7,7 @@ namespace Managers
     {
         public static int lives = 3;
         public int maxLives = 3;
+
         
         private void Awake()
         {
@@ -26,6 +28,5 @@ namespace Managers
         {
             lives--;
         }
-        
     }
 }

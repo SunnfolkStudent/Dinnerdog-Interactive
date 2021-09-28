@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class EnemieMovement : MonoBehaviour
+public class EnemyMovement : MonoBehaviour
 {
     public float _lastetDirectionChangeTime;
     public float _directionChangeTime = 1;
