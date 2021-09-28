@@ -15,6 +15,6 @@ public class PlayerInput : MonoBehaviour
         
         dash = Keyboard.current.spaceKey.wasPressedThisFrame;
         interact = Keyboard.current.fKey.wasPressedThisFrame;
-        attack = Mouse.current.leftButton.wasPressedThisFrame;
+        attack = Keyboard.current.kKey.wasPressedThisFrame;
     }
 }

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = System.Random;
 
 public class PlayerAnimations : MonoBehaviour
 {
@@ -9,9 +10,13 @@ public class PlayerAnimations : MonoBehaviour
     private PlayerMovement _playerMovement;
     private Rigidbody2D _rigibody;
     private PlayerInput _input;
+    private PlayerAudio _audio;
+    private AudioSource _AudioSource;
 
     private readonly int _sideWalk = Animator.StringToHash("SideWalk");
     private readonly int _upDown = Animator.StringToHash("UpDown");
+
+    public bool playerBark;
 
     private void Start()
     {
@@ -19,6 +24,8 @@ public class PlayerAnimations : MonoBehaviour
         _playerMovement = GetComponent<PlayerMovement>();
         _rigibody = GetComponent<Rigidbody2D>();
         _input = GetComponent<PlayerInput>();
+        _audio = GetComponent<PlayerAudio>();
+        _AudioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
