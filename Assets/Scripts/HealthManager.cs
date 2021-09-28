@@ -24,7 +24,7 @@ namespace Managers
             lives++;
         }
         
-        public static void ReduceLives()
+        public void ReduceLives()
         {
             lives--;
         }
