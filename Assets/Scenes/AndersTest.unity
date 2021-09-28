@@ -609,10 +609,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  dashForce: 100
   whatIsPit:
     serializedVersion: 2
     m_Bits: 0
+  dashForce: 100
+  dashTime: 0.3
+  dashCooldown: 2
 --- !u!114 &989202058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,7 +666,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!212 &989202061
 SpriteRenderer:
