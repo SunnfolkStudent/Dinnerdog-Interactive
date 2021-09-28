@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 696ed1e5c6270b74181fd2088bd5ff5e
+guid: b55497a38b867be4fbbb025955e27818
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8858191954765939596
-    second: Enemy_Cat_0
+      213: 3386050183012988103
+    second: Enemy_Cat_Fixed_0
   - first:
-      213: 2369516725648003299
-    second: Enemy_Cat_1
+      213: 3265597754366690132
+    second: Enemy_Cat_Fixed_1
   - first:
-      213: -1767272663655950691
-    second: Enemy_Cat_2
+      213: -7289725245396530825
+    second: Enemy_Cat_Fixed_2
   - first:
-      213: 8664321444598587091
-    second: Enemy_Cat_3
+      213: -5058431616637898380
+    second: Enemy_Cat_Fixed_3
   - first:
-      213: 4479403855236927492
-    second: Enemy_Cat_4
+      213: -6855980568046391152
+    second: Enemy_Cat_Fixed_4
   - first:
-      213: -6291538447781510911
-    second: Enemy_Cat_5
+      213: -2391050699741540185
+    second: Enemy_Cat_Fixed_5
   - first:
-      213: 5584274120883591520
-    second: Enemy_Cat_6
+      213: -746171482720692204
+    second: Enemy_Cat_Fixed_6
   - first:
-      213: -6245630354026054089
-    second: Enemy_Cat_7
+      213: -8410963990961196796
+    second: Enemy_Cat_Fixed_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,7 +127,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy_Cat_0
+      name: Enemy_Cat_Fixed_0
       rect:
         serializedVersion: 2
         x: 2
@@ -135,20 +135,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47cf3ff8951611580800000000000000
-      internalID: -8858191954765939596
+      spriteID: 7c4b22e83baadfe20800000000000000
+      internalID: 3386050183012988103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Cat_1
+      name: Enemy_Cat_Fixed_1
       rect:
         serializedVersion: 2
         x: 21
@@ -156,20 +156,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e0989168e632e020800000000000000
-      internalID: 2369516725648003299
+      spriteID: 45307501bdbb15d20800000000000000
+      internalID: 3265597754366690132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Cat_2
+      name: Enemy_Cat_Fixed_2
       rect:
         serializedVersion: 2
         x: 40
@@ -177,20 +177,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d96578530e26977e0800000000000000
-      internalID: -1767272663655950691
+      spriteID: 77941fd0381b5da90800000000000000
+      internalID: -7289725245396530825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Cat_3
+      name: Enemy_Cat_Fixed_3
       rect:
         serializedVersion: 2
         x: 59
@@ -198,20 +198,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3de1915c27add3870800000000000000
-      internalID: 8664321444598587091
+      spriteID: 47171b1de37dcc9b0800000000000000
+      internalID: -5058431616637898380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Cat_4
+      name: Enemy_Cat_Fixed_4
       rect:
         serializedVersion: 2
         x: 78
@@ -219,20 +219,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40099ecc21a0a2e30800000000000000
-      internalID: 4479403855236927492
+      spriteID: 0903d967ff9aad0a0800000000000000
+      internalID: -6855980568046391152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Cat_5
+      name: Enemy_Cat_Fixed_5
       rect:
         serializedVersion: 2
         x: 97
@@ -240,20 +240,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1014541ad17ffa8a0800000000000000
-      internalID: -6291538447781510911
+      spriteID: 7a0d4f19e0841ded0800000000000000
+      internalID: -2391050699741540185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Cat_6
+      name: Enemy_Cat_Fixed_6
       rect:
         serializedVersion: 2
         x: 116
@@ -261,20 +261,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0695ca7e9b35f7d40800000000000000
-      internalID: 5584274120883591520
+      spriteID: 41818e66df015a5f0800000000000000
+      internalID: -746171482720692204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Cat_7
+      name: Enemy_Cat_Fixed_7
       rect:
         serializedVersion: 2
         x: 135
@@ -282,14 +282,14 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73e31e5a8401359a0800000000000000
-      internalID: -6245630354026054089
+      spriteID: 401f72c30d0464b80800000000000000
+      internalID: -8410963990961196796
       vertices: []
       indices: 
       edges: []
