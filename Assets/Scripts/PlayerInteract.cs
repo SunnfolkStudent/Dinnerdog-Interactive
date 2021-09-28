@@ -17,8 +17,13 @@ public class PlayerInteract : MonoBehaviour
         _input = GetComponent<PlayerInput>();
     }
 
-    private void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.CompareTag("Sign"))
+        {
+            canInteract = true;
+            print("Press F to interact");
+        }
         
     }
 }
