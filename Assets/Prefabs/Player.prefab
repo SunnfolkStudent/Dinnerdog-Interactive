@@ -14,12 +14,12 @@ GameObject:
   - component: {fileID: 3240130474173057198}
   - component: {fileID: 3240130474173057199}
   - component: {fileID: 3240130474173057196}
+  - component: {fileID: -3707588984408031603}
+  - component: {fileID: 4764113460085336839}
   - component: {fileID: 3240130474173057189}
   - component: {fileID: 3240130474173057192}
-  - component: {fileID: -3707588984408031603}
   - component: {fileID: 8082664626610939378}
   - component: {fileID: 1926513159242761753}
-  - component: {fileID: 4764113460085336839}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -128,6 +128,7 @@ MonoBehaviour:
   dashForce: 15
   dashTime: 0.3
   dashCooldown: 2
+  isDashing: 0
 --- !u!114 &3240130474173057199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +163,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxLives: 3
+--- !u!114 &-3707588984408031603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3240130474173057197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d4ceae1c09db8744812142de1ccd8c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerBark: 0
+--- !u!114 &4764113460085336839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3240130474173057197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7822cee89d034ba45a9c6f73734698c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BIGDOG: {fileID: 0}
 --- !u!50 &3240130474173057189
 Rigidbody2D:
   serializedVersion: 4
@@ -199,18 +226,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 0.7}
   m_Direction: 1
---- !u!114 &-3707588984408031603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3240130474173057197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d4ceae1c09db8744812142de1ccd8c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &8082664626610939378
 Animator:
   serializedVersion: 3
@@ -326,16 +341,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &4764113460085336839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3240130474173057197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7822cee89d034ba45a9c6f73734698c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BIGDOG: {fileID: 0}

@@ -8,6 +8,8 @@ TagManager:
   - Lights
   - Enemy
   - Wall
+  - Food
+  - Sign
   layers:
   - Default
   - TransparentFX
