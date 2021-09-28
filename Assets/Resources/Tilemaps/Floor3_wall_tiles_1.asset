@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Floor1_holes_asset
+  m_Name: Floor3_wall_tiles_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: cc40db88edda3fd4396b62cfc016ba5a, type: 3}
+  m_Sprite: {fileID: 6693623942703394413, guid: 8f97a0aac0ea05e4fa1cbec8dc7018f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
