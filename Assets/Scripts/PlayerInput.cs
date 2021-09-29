@@ -18,11 +18,6 @@ public class PlayerInput : MonoBehaviour
             moveVector = moveVector.normalized;
         }
         
-        print("aKey"+Keyboard.current.aKey.isPressed);
-        print("dKey"+Keyboard.current.dKey.isPressed);
-        print("sKey"+Keyboard.current.sKey.isPressed);
-        print("wKey"+Keyboard.current.wKey.isPressed);
-        
         dash = Keyboard.current.spaceKey.wasPressedThisFrame;
         interact = Keyboard.current.fKey.wasPressedThisFrame;
         attack = Keyboard.current.kKey.wasPressedThisFrame;
