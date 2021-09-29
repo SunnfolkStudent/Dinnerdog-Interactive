@@ -28,11 +28,13 @@ public class PlayerInteract : MonoBehaviour
             Destroy(other.gameObject);
         }
         
-        if (other.CompareTag("Sign"))
+        if (other.CompareTag("Exit"))
         {
-            canInteract = true;
-            print("Press F to interact");
+            if (score <= 3)
+            {
+                canInteract = true;
+                print("Press F to Exit");
+            }
         }
-
     }
 }
