@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine;
-using Random = System.Random;
-
+using Random = UnityEngine.Random;
 
 public class PlayerAudio : MonoBehaviour
 {
@@ -26,6 +26,10 @@ public class PlayerAudio : MonoBehaviour
     }
     private void BarkAudio()
     {
-        _AudioSource.PlayOneShot(BIGDOG);
+        if (!_AudioSource.isPlaying)
+        {
+            _AudioSource.pitch = Random.Range(0.8f, 1.2f);
+            _AudioSource.PlayOneShot(BIGDOG);   
+        }
     }
 }
