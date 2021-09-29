@@ -7,7 +7,7 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
 
-    private float timeBtwAttack;
+    public float timeBtwAttack;
     [Header("Attack cooldown in seconds")]
     public float startTimeBtwAttack;
 

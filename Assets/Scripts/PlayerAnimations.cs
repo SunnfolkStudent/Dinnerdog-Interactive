@@ -12,12 +12,14 @@ public class PlayerAnimations : MonoBehaviour
     private PlayerInput _input;
     private PlayerAudio _audio;
     private AudioSource _AudioSource;
+    private PlayerAttack _attack;
 
     private readonly int _sideWalk = Animator.StringToHash("SideWalk");
     private readonly int _upDown = Animator.StringToHash("UpDown");
-
-    public bool playerBark;
+    
     private static readonly int CanWalk = Animator.StringToHash("canWalk");
+    private static readonly int isBarking = Animator.StringToHash("isBarking");
+    private static readonly int isDashing = Animator.StringToHash("isDashing");
 
     private void Start()
     {
@@ -27,6 +29,7 @@ public class PlayerAnimations : MonoBehaviour
         _input = GetComponent<PlayerInput>();
         _audio = GetComponent<PlayerAudio>();
         _AudioSource = GetComponent<AudioSource>();
+        _attack = GetComponent<PlayerAttack>();
     }
 
     private void Update()
@@ -41,7 +44,24 @@ public class PlayerAnimations : MonoBehaviour
         {
             _animator.SetBool(CanWalk, false);
         }
-        
+
+        if (_input.attack && _attack.timeBtwAttack <= 0)
+        {
+            _animator.SetBool(isBarking, true);
+        }
+        else
+        {
+            _animator.SetBool(isBarking, false);
+        }
+
+        if (_input.dash)
+        {
+            _animator.SetBool(isDashing, true);
+        }
+        else
+        {
+            _animator.SetBool(isDashing, false);
+        }
         
         if (_input.moveVector.x > 0)
         {
@@ -52,9 +72,11 @@ public class PlayerAnimations : MonoBehaviour
             transform.localScale = new Vector3(1f, 1f);
         }
 
+        /*
         if (_input.attack)
         {
             _animator.Play("PlayerBark");
         }
+        */
     }
 }
