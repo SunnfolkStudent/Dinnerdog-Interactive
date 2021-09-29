@@ -22,6 +22,9 @@ public class PlayerMovement : MonoBehaviour
     public float dashCooldown = 2;
     public bool isDashing = false;
     
+    //Save position
+    private Vector2 savePosition;
+    
     
     private void Start()
     {

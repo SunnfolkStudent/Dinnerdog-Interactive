@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,6 +14,8 @@ namespace Managers
         public GameObject heart3;
         public GameObject heart2;
         public GameObject heart1;
+        public bool isInvincible;
+        [SerializeField] private float invincibilityTime = 1f;
         
 
         private void Awake()
@@ -39,7 +42,11 @@ namespace Managers
 
         public void ReduceLives()
         {
-            lives--;
+            if (!isInvincible)
+            {
+                lives--;
+                StartCoroutine(Invincibility());
+            }
         }
 
         private void Update()
@@ -47,7 +54,7 @@ namespace Managers
             currentLives = lives;
             if (lives > 3)
             {
-                ReduceLives();
+                lives = 3;
             }
             if (lives >= 3)
             {
@@ -79,6 +86,13 @@ namespace Managers
                 
                 print("Die");
             }
+        }
+
+        IEnumerator Invincibility()
+        {
+            isInvincible = true;
+            yield return new WaitForSeconds(invincibilityTime);
+            isInvincible = false;
         }
     }
 }
