@@ -2,9 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerInteract : MonoBehaviour
 {
+
+    public float score = 0f;
     [Space(5)] 
     public string MainMenu;
     public string WinSceen;
@@ -19,11 +22,17 @@ public class PlayerInteract : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.CompareTag("Food"))
+        {
+            score++;
+            Destroy(other.gameObject);
+        }
+        
         if (other.CompareTag("Sign"))
         {
             canInteract = true;
             print("Press F to interact");
         }
-        
+
     }
 }
