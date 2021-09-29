@@ -12032,7 +12032,7 @@ GameObject:
   - component: {fileID: 823759560}
   m_Layer: 7
   m_Name: player pits
-  m_TagString: Pit
+  m_TagString: Player Pit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
