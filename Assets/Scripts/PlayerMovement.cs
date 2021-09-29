@@ -22,11 +22,16 @@ public class PlayerMovement : MonoBehaviour
     public float dashCooldown = 2;
     public bool isDashing = false;
     
+    //Save position
+    public Vector2 savePosition;
+    
     
     private void Start()
     {
         _Input = GetComponent<PlayerInput>();
         _Rigidbody2D = GetComponent<Rigidbody2D>();
+        
+        InvokeRepeating(nameof(PosTime), 3f, 3f);
     }
 
     private void Update()
@@ -49,5 +54,10 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         _Rigidbody2D.velocity = Vector2.zero;
         isDashing = false;
+    }
+    private void PosTime()
+    {
+        if (isDashing) return;
+        savePosition = transform.position;
     }
 }

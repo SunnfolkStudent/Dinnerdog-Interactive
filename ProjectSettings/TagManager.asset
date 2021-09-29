@@ -11,6 +11,8 @@ TagManager:
   - Player Pit
   - Food
   - Exit
+  - DogTreat
+  - Sign
   layers:
   - Default
   - TransparentFX

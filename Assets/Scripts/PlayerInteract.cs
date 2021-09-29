@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Managers;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 
@@ -14,14 +15,23 @@ public class PlayerInteract : MonoBehaviour
     public bool canInteract;
 
     private PlayerInput _input;
+    private HealthManager _health;
     
     private void Start()
     {
         _input = GetComponent<PlayerInput>();
+        _health = GetComponent<HealthManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        
+        if (other.CompareTag("DogTreat"))
+        {
+            HealthManager.lives++;
+            Destroy(other.gameObject);
+        }
+
         if (other.CompareTag("Food"))
         {
             score++;
