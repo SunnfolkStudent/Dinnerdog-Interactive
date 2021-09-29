@@ -1,3 +1,4 @@
+using System;
 using Managers;
 using UnityEditor.UIElements;
 using UnityEngine;
@@ -27,12 +28,22 @@ public class PlayerCollision : MonoBehaviour
         { 
             print("Die");
             healthManager.ReduceLives();
-            sceneControl.ResetScene();
+            transform.position = _movement.savePosition;
         }
         
         if (other.CompareTag("Enemy"))
         {
             healthManager.ReduceLives();
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Pit") && !_movement.isDashing)
+        { 
+            print("Die");
+            healthManager.ReduceLives();
+            transform.position = _movement.savePosition;
         }
     }
 }

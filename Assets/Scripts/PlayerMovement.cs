@@ -23,18 +23,19 @@ public class PlayerMovement : MonoBehaviour
     public bool isDashing = false;
     
     //Save position
-    private Vector2 _savePosition;
+    public Vector2 savePosition;
     
     
     private void Start()
     {
         _Input = GetComponent<PlayerInput>();
         _Rigidbody2D = GetComponent<Rigidbody2D>();
+        
+        InvokeRepeating(nameof(PosTime), 3f, 3f);
     }
 
     private void Update()
     {
-        StartCoroutine(PosTime());
         if (_Input.dash && !isDashing)
         {
             StartCoroutine(Dash());
@@ -54,9 +55,9 @@ public class PlayerMovement : MonoBehaviour
         _Rigidbody2D.velocity = Vector2.zero;
         isDashing = false;
     }
-    private IEnumerator PosTime()
+    private void PosTime()
     {
-        yield return new WaitForSeconds(3f);
-        _savePosition = transform.position;
+        if (isDashing) return;
+        savePosition = transform.position;
     }
 }

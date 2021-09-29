@@ -12,6 +12,7 @@ TagManager:
   - Food
   - Exit
   - DogTreat
+  - Sign
   layers:
   - Default
   - TransparentFX
