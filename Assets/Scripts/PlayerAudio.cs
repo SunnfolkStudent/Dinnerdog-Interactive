@@ -28,7 +28,7 @@ public class PlayerAudio : MonoBehaviour
     {
         if (!_AudioSource.isPlaying)
         {
-            _AudioSource.pitch = Random.Range(0.5f, 1.5f);
+            _AudioSource.pitch = Random.Range(0.8f, 1.2f);
             _AudioSource.PlayOneShot(BIGDOG);   
         }
     }
