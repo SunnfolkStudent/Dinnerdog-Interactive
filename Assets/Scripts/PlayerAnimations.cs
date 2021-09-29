@@ -12,6 +12,7 @@ public class PlayerAnimations : MonoBehaviour
     private PlayerInput _input;
     private PlayerAudio _audio;
     private AudioSource _AudioSource;
+    private PlayerAttack _attack;
 
     private readonly int _sideWalk = Animator.StringToHash("SideWalk");
     private readonly int _upDown = Animator.StringToHash("UpDown");
@@ -28,6 +29,7 @@ public class PlayerAnimations : MonoBehaviour
         _input = GetComponent<PlayerInput>();
         _audio = GetComponent<PlayerAudio>();
         _AudioSource = GetComponent<AudioSource>();
+        _attack = GetComponent<PlayerAttack>();
     }
 
     private void Update()
@@ -43,7 +45,7 @@ public class PlayerAnimations : MonoBehaviour
             _animator.SetBool(CanWalk, false);
         }
 
-        if (_input.attack)
+        if (_input.attack && _attack.timeBtwAttack <= 0)
         {
             _animator.SetBool(isBarking, true);
         }
