@@ -1,10 +1,11 @@
 using Managers;
+using UnityEditor.UIElements;
 using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
-    [SerializeField] private LayerMask whatIsPit;
-    [SerializeField] private LayerMask whoIsEnemy;
+    public string whatIsPit;
+    public string whoIsEnemy;
 
     private SceneController sceneControl;
     private HealthManager healthManager;
@@ -20,10 +21,10 @@ public class PlayerCollision : MonoBehaviour
     {
         if (other.CompareTag("Pit"))
         {
+            print("Die");
             healthManager.ReduceLives();
             sceneControl.ResetScene();
         }
-
         if (other.CompareTag("Enemy"))
         {
             healthManager.ReduceLives();

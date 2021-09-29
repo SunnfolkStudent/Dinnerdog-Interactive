@@ -8,6 +8,9 @@ TagManager:
   - Lights
   - Enemy
   - Wall
+  - Player Pit
+  - Food
+  - Exit
   layers:
   - Default
   - TransparentFX
@@ -16,7 +19,7 @@ TagManager:
   - Water
   - UI
   - Enemy
-  - 
+  - Pit
   - 
   - 
   - 
