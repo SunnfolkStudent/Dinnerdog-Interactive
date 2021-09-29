@@ -44,6 +44,7 @@ public class EnemyMovement : MonoBehaviour
         {
             calculateNewMovementVector();
         }
+        
         if (other.transform.CompareTag("Pit"))
         {
             calculateNewMovementVector();

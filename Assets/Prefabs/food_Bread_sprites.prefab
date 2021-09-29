@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6512824848589998942}
   - component: {fileID: 6512824848589998937}
-  - component: {fileID: -2116796160957560956}
+  - component: {fileID: 4812737989044372527}
   m_Layer: 0
   m_Name: food_Bread_sprites
   m_TagString: Food
@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6512824848589998936}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -40.059525, y: -8.911051, z: 17.164764}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -84,8 +84,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!70 &-2116796160957560956
-CapsuleCollider2D:
+--- !u!61 &4812737989044372527
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -97,6 +97,16 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.030260086, y: -0.012102127}
-  m_Size: {x: 0.96852493, y: 0.9927368}
-  m_Direction: 0
+  m_Offset: {x: -0.048537016, y: 0.021235108}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.67237425, y: 0.66630673}
+  m_EdgeRadius: 0
