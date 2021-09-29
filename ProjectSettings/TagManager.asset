@@ -8,6 +8,7 @@ TagManager:
   - Lights
   - Enemy
   - Wall
+  - Player Pit
   layers:
   - Default
   - TransparentFX
