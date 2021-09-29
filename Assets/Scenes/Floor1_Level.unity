@@ -56794,7 +56794,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7767653, y: 1}
+    m_SensorSize: {x: 1.778125, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -94295,6 +94295,14 @@ PrefabInstance:
     - target: {fileID: 1926513159242761753, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1969152875107388725, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
+      propertyPath: whatIsPit
+      value: Pit
+      objectReference: {fileID: 0}
+    - target: {fileID: 1969152875107388725, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
+      propertyPath: whoIsEnemy
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 3240130474173057189, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
       propertyPath: m_Constraints

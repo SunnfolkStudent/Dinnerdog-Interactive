@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8031582433314149756}
   - component: {fileID: 8031582433314149735}
   - component: {fileID: 8031582433314149728}
+  - component: {fileID: 8307354455943135604}
   m_Layer: 6
   m_Name: Cat
   m_TagString: Enemy
@@ -198,3 +199,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.6333084}
   m_EdgeRadius: 0
+--- !u!114 &8307354455943135604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8031582433314149733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be34e73f0016584e9c8d2ac0d6b70d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
