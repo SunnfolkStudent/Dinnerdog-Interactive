@@ -209,19 +209,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3240130474173057194, guid: 54c161f554f7acd49bbc218576329497, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 3.1290183
       objectReference: {fileID: 0}
     - target: {fileID: 3240130474173057194, guid: 54c161f554f7acd49bbc218576329497, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 2.886474
       objectReference: {fileID: 0}
     - target: {fileID: 3240130474173057194, guid: 54c161f554f7acd49bbc218576329497, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3.28
       objectReference: {fileID: 0}
     - target: {fileID: 3240130474173057194, guid: 54c161f554f7acd49bbc218576329497, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -4.21
       objectReference: {fileID: 0}
     - target: {fileID: 3240130474173057194, guid: 54c161f554f7acd49bbc218576329497, type: 3}
       propertyPath: m_LocalPosition.z
@@ -254,6 +254,10 @@ PrefabInstance:
     - target: {fileID: 3240130474173057194, guid: 54c161f554f7acd49bbc218576329497, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240130474173057195, guid: 54c161f554f7acd49bbc218576329497, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3240130474173057197, guid: 54c161f554f7acd49bbc218576329497, type: 3}
       propertyPath: m_Name
