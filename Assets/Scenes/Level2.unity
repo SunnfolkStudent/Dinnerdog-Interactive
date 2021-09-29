@@ -8377,54 +8377,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 7165953658106229587, guid: 47cbd5142c8557d42a2a75d5752410e3, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 54.6157
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165953658106229587, guid: 47cbd5142c8557d42a2a75d5752410e3, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 59.5032
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165953658106229587, guid: 47cbd5142c8557d42a2a75d5752410e3, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -751.9737
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165953658106229587, guid: 47cbd5142c8557d42a2a75d5752410e3, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 489.58142
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165953658917216936, guid: 47cbd5142c8557d42a2a75d5752410e3, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 54.6157
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165953658917216936, guid: 47cbd5142c8557d42a2a75d5752410e3, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 59.5032
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165953658917216936, guid: 47cbd5142c8557d42a2a75d5752410e3, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -829.6962
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165953658917216936, guid: 47cbd5142c8557d42a2a75d5752410e3, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 489.58142
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165953659222760651, guid: 47cbd5142c8557d42a2a75d5752410e3, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 54.6157
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165953659222760651, guid: 47cbd5142c8557d42a2a75d5752410e3, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 59.5032
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165953659222760651, guid: 47cbd5142c8557d42a2a75d5752410e3, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -905.3181
-      objectReference: {fileID: 0}
-    - target: {fileID: 7165953659222760651, guid: 47cbd5142c8557d42a2a75d5752410e3, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 489.58142
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47cbd5142c8557d42a2a75d5752410e3, type: 3}
 --- !u!1001 &2127111151
