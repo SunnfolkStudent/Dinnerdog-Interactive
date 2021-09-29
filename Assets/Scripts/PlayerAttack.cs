@@ -8,6 +8,7 @@ public class PlayerAttack : MonoBehaviour
 {
 
     public float timeBtwAttack;
+    public bool canAttack;
     [Header("Attack cooldown in seconds")]
     public float startTimeBtwAttack;
 
@@ -54,6 +55,7 @@ public class PlayerAttack : MonoBehaviour
         if (timeBtwAttack <= 0)
         {
             print("time between is OK");
+            canAttack = true;
             //then you can attack
             if (_Input.attack)
             {
@@ -99,6 +101,7 @@ public class PlayerAttack : MonoBehaviour
         else
         {
             timeBtwAttack -= 1 * Time.deltaTime;
+            canAttack = false;
         }
     }
 
