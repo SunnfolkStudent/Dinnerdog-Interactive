@@ -45,7 +45,7 @@ public class PlayerAnimations : MonoBehaviour
             _animator.SetBool(CanWalk, false);
         }
 
-        if (_input.attack && _attack.timeBtwAttack <= 0)
+        if (_input.attack && _attack.canAttack)
         {
             _animator.SetBool(isBarking, true);
         }
