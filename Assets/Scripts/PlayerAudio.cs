@@ -24,5 +24,8 @@ public class PlayerAudio : MonoBehaviour
         _collision = GetComponent<PlayerCollision>();
         _animations = GetComponent<PlayerAnimations>();
     }
-
+    private void BarkAudio()
+    {
+        _AudioSource.PlayOneShot(BIGDOG);
+    }
 }
