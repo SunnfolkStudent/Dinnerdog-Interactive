@@ -15,7 +15,7 @@ public class signSystem : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.CompareTag("Sign"))
+        if (other.CompareTag("Player"))
         {
             text.SetActive(true);
         }
