@@ -17,6 +17,7 @@ public class PlayerAnimations : MonoBehaviour
     private readonly int _upDown = Animator.StringToHash("UpDown");
 
     public bool playerBark;
+    private static readonly int CanWalk = Animator.StringToHash("canWalk");
 
     private void Start()
     {
@@ -30,8 +31,17 @@ public class PlayerAnimations : MonoBehaviour
 
     private void Update()
     {
-        _animator.SetFloat(_sideWalk, _input.moveVector.x);
-        _animator.SetFloat(_upDown, _input.moveVector.y);
+        if (_input.moveVector != Vector2.zero && !_playerMovement.isDashing)
+        {
+            _animator.SetFloat(_sideWalk, _input.moveVector.x);
+            _animator.SetFloat(_upDown, _input.moveVector.y);
+            _animator.SetBool(CanWalk, true);
+        }
+        else
+        {
+            _animator.SetBool(CanWalk, false);
+        }
+        
         
         if (_input.moveVector.x > 0)
         {

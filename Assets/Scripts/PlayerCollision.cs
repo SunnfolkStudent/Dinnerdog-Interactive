@@ -24,7 +24,7 @@ public class PlayerCollision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Pit") && !_movement.isDashing)
+        if (other.CompareTag("Player Pit") && !_movement.isDashing)
         { 
             print("Die");
             healthManager.ReduceLives();
@@ -39,7 +39,7 @@ public class PlayerCollision : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.CompareTag("Pit") && !_movement.isDashing)
+        if (other.CompareTag("Player Pit") && !_movement.isDashing)
         { 
             print("Die");
             healthManager.ReduceLives();
