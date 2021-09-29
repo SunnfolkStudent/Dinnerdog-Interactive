@@ -18,12 +18,11 @@ public class PlayerCollision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Pit"))
+        if (other.CompareTag("PlayerPit"))
         {
             healthManager.ReduceLives();
             sceneControl.ResetScene();
         }
-
         if (other.CompareTag("Enemy"))
         {
             healthManager.ReduceLives();
