@@ -26,10 +26,15 @@ public class PlayerInteract : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         
+        if (other.CompareTag("DogTreat"))
+        {
+            HealthManager.lives++;
+            Destroy(other.gameObject);
+        }
+
         if (other.CompareTag("Food"))
         {
             score++;
-            HealthManager.lives++;
             Destroy(other.gameObject);
         }
         

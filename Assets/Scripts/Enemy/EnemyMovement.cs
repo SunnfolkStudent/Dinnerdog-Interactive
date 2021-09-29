@@ -44,10 +44,7 @@ public class EnemyMovement : MonoBehaviour
         {
             calculateNewMovementVector();
         }
-    }
-    
-    private void OnCollisionStay2D(Collision2D other)
-    {
+        
         if (other.transform.CompareTag("Pit"))
         {
             calculateNewMovementVector();
