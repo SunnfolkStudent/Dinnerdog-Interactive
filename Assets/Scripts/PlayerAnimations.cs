@@ -54,7 +54,7 @@ public class PlayerAnimations : MonoBehaviour
 
         if (_input.attack)
         {
-            _AudioSource.PlayOneShot(playerBark);
+            _animator.Play("PlayerBark");
         }
     }
 }
