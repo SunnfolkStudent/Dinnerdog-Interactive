@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 3240130474173057192}
   - component: {fileID: 8082664626610939378}
   - component: {fileID: 1926513159242761753}
+  - component: {fileID: 1969152875107388725}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -162,6 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f668b009ce8ee4a9ea828db5645303, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lives: 3
   maxLives: 3
 --- !u!114 &-3707588984408031603
 MonoBehaviour:
@@ -341,3 +343,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1969152875107388725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3240130474173057197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deb2dec9542d66941afb4a5f57d230bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whatIsPit:
+    serializedVersion: 2
+    m_Bits: 128
+  whoIsEnemy:
+    serializedVersion: 2
+    m_Bits: 64
