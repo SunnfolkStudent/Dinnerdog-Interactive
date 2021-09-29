@@ -1,0 +1,1872 @@
+fileFormatVersion: 2
+guid: b0b776885df2fb1469f9126e55bc4c47
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4211598111170202131
+    second: GRANDMA CUTSCENE_0
+  - first:
+      213: 3422270992980350606
+    second: GRANDMA CUTSCENE_1
+  - first:
+      213: 8972880570084304779
+    second: GRANDMA CUTSCENE_2
+  - first:
+      213: -7045419596244625684
+    second: GRANDMA CUTSCENE_3
+  - first:
+      213: -7407044780773816235
+    second: GRANDMA CUTSCENE_4
+  - first:
+      213: -3600830083066020651
+    second: GRANDMA CUTSCENE_5
+  - first:
+      213: -4509543685584460347
+    second: GRANDMA CUTSCENE_6
+  - first:
+      213: 3545813553102427794
+    second: GRANDMA CUTSCENE_7
+  - first:
+      213: 2930106820472251965
+    second: GRANDMA CUTSCENE_8
+  - first:
+      213: 2398015923751434734
+    second: GRANDMA CUTSCENE_9
+  - first:
+      213: 8284814062745532599
+    second: GRANDMA CUTSCENE_10
+  - first:
+      213: 6226743270009188210
+    second: GRANDMA CUTSCENE_11
+  - first:
+      213: 6287932825828251003
+    second: GRANDMA CUTSCENE_12
+  - first:
+      213: -5308165105308439685
+    second: GRANDMA CUTSCENE_13
+  - first:
+      213: -2423984924962010833
+    second: GRANDMA CUTSCENE_14
+  - first:
+      213: -3478425463582482489
+    second: GRANDMA CUTSCENE_15
+  - first:
+      213: -1663731438366543325
+    second: GRANDMA CUTSCENE_16
+  - first:
+      213: -3980885270242597818
+    second: GRANDMA CUTSCENE_17
+  - first:
+      213: -4047042127125206691
+    second: GRANDMA CUTSCENE_18
+  - first:
+      213: -1547215278770344336
+    second: GRANDMA CUTSCENE_19
+  - first:
+      213: -6289933392963847709
+    second: GRANDMA CUTSCENE_20
+  - first:
+      213: 2081645437458719392
+    second: GRANDMA CUTSCENE_21
+  - first:
+      213: 7554258031522827
+    second: GRANDMA CUTSCENE_22
+  - first:
+      213: 3001925622045764053
+    second: GRANDMA CUTSCENE_23
+  - first:
+      213: 309154606895762026
+    second: GRANDMA CUTSCENE_24
+  - first:
+      213: -4345520645716723680
+    second: GRANDMA CUTSCENE_25
+  - first:
+      213: 3006652194357498662
+    second: GRANDMA CUTSCENE_26
+  - first:
+      213: 8674187675045461470
+    second: GRANDMA CUTSCENE_27
+  - first:
+      213: -6544586473512907043
+    second: GRANDMA CUTSCENE_28
+  - first:
+      213: -2222275422987030670
+    second: GRANDMA CUTSCENE_29
+  - first:
+      213: 6301535996926275460
+    second: GRANDMA CUTSCENE_30
+  - first:
+      213: -9191211236659912360
+    second: GRANDMA CUTSCENE_31
+  - first:
+      213: 8667543632436909203
+    second: GRANDMA CUTSCENE_32
+  - first:
+      213: 3513946930720723498
+    second: GRANDMA CUTSCENE_33
+  - first:
+      213: -8602545878828660904
+    second: GRANDMA CUTSCENE_34
+  - first:
+      213: -1630154847136002441
+    second: GRANDMA CUTSCENE_35
+  - first:
+      213: -710958468372732124
+    second: GRANDMA CUTSCENE_36
+  - first:
+      213: -4156716324220999979
+    second: GRANDMA CUTSCENE_37
+  - first:
+      213: 6688472315512974922
+    second: GRANDMA CUTSCENE_38
+  - first:
+      213: -6802297724815657679
+    second: GRANDMA CUTSCENE_39
+  - first:
+      213: -2539401793491279869
+    second: GRANDMA CUTSCENE_40
+  - first:
+      213: -8731374744757319041
+    second: GRANDMA CUTSCENE_41
+  - first:
+      213: -3501872106958169769
+    second: GRANDMA CUTSCENE_42
+  - first:
+      213: -8238494018244279932
+    second: GRANDMA CUTSCENE_43
+  - first:
+      213: 1928675764038105065
+    second: GRANDMA CUTSCENE_44
+  - first:
+      213: 3079059059885863084
+    second: GRANDMA CUTSCENE_45
+  - first:
+      213: 4404066859003727136
+    second: GRANDMA CUTSCENE_46
+  - first:
+      213: -3546414209204730635
+    second: GRANDMA CUTSCENE_47
+  - first:
+      213: 8143118275846862896
+    second: GRANDMA CUTSCENE_48
+  - first:
+      213: 6176088050345959736
+    second: GRANDMA CUTSCENE_49
+  - first:
+      213: -8703837202942589613
+    second: GRANDMA CUTSCENE_50
+  - first:
+      213: 4774550537571897136
+    second: GRANDMA CUTSCENE_51
+  - first:
+      213: -4928227030097646299
+    second: GRANDMA CUTSCENE_52
+  - first:
+      213: 2466319306026616597
+    second: GRANDMA CUTSCENE_53
+  - first:
+      213: 8232307407204859595
+    second: GRANDMA CUTSCENE_54
+  - first:
+      213: -8140856375248697157
+    second: GRANDMA CUTSCENE_55
+  - first:
+      213: 5251403183640972297
+    second: GRANDMA CUTSCENE_56
+  - first:
+      213: 3266693907852072960
+    second: GRANDMA CUTSCENE_57
+  - first:
+      213: -1322381096384736488
+    second: GRANDMA CUTSCENE_58
+  - first:
+      213: -8514080622637975424
+    second: GRANDMA CUTSCENE_59
+  - first:
+      213: 7816097092686189509
+    second: GRANDMA CUTSCENE_60
+  - first:
+      213: -3882951379839117653
+    second: GRANDMA CUTSCENE_61
+  - first:
+      213: -1458451505343443004
+    second: GRANDMA CUTSCENE_62
+  - first:
+      213: 3475603962570468998
+    second: GRANDMA CUTSCENE_63
+  - first:
+      213: -3550940087821652411
+    second: GRANDMA CUTSCENE_64
+  - first:
+      213: -2359791934680372040
+    second: GRANDMA CUTSCENE_65
+  - first:
+      213: -6462194038855695112
+    second: GRANDMA CUTSCENE_66
+  - first:
+      213: 3068813048614687839
+    second: GRANDMA CUTSCENE_67
+  - first:
+      213: -5766030182117963925
+    second: GRANDMA CUTSCENE_68
+  - first:
+      213: -6076032049927048266
+    second: GRANDMA CUTSCENE_69
+  - first:
+      213: -1613800803327162600
+    second: GRANDMA CUTSCENE_70
+  - first:
+      213: 6306118310759887349
+    second: GRANDMA CUTSCENE_71
+  - first:
+      213: -1653010302025316649
+    second: GRANDMA CUTSCENE_72
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de57ef6f4d56d85c0800000000000000
+      internalID: -4211598111170202131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1408
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8697bd06595e7f20800000000000000
+      internalID: 3422270992980350606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1408
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8721ef8653168c70800000000000000
+      internalID: 8972880570084304779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1408
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce653489434a93e90800000000000000
+      internalID: -7045419596244625684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_4
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1408
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558c09e1404e43990800000000000000
+      internalID: -7407044780773816235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_5
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1408
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc3f421e18470ec0800000000000000
+      internalID: -3600830083066020651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_6
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1408
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5e1a919e1ea61c0800000000000000
+      internalID: -4509543685584460347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_7
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1408
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2969f68d3a2453130800000000000000
+      internalID: 3545813553102427794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_8
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1408
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36a23cf0a4d9a820800000000000000
+      internalID: 2930106820472251965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1232
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee93fe407c6774120800000000000000
+      internalID: 2398015923751434734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1232
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8bb18ce7299f270800000000000000
+      internalID: 8284814062745532599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_11
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1232
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fa37c6306d96650800000000000000
+      internalID: 6226743270009188210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_12
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1232
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75d2071799334750800000000000000
+      internalID: 6287932825828251003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_13
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1232
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b67f8e5fb9556b0800000000000000
+      internalID: -5308165105308439685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_14
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1232
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29ccb6bd864c5ed0800000000000000
+      internalID: -2423984924962010833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_15
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1232
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf1e7968762abfc0800000000000000
+      internalID: -3478425463582482489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_16
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1232
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3223386521d39e8e0800000000000000
+      internalID: -1663731438366543325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_17
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1232
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644ea9730fd01c8c0800000000000000
+      internalID: -3980885270242597818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5929a5a0a406d7c0800000000000000
+      internalID: -4047042127125206691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1056
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e26d5c6ef278ae0800000000000000
+      internalID: -1547215278770344336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_20
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1056
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9b58397eaa5b8a0800000000000000
+      internalID: -6289933392963847709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_21
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1056
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a22a001f7d73ec10800000000000000
+      internalID: 2081645437458719392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_22
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1056
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04b282ce86da1000800000000000000
+      internalID: 7554258031522827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_23
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1056
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d96e28c27bf8a920800000000000000
+      internalID: 3001925622045764053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_24
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1056
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a82bc1a765a4400800000000000000
+      internalID: 309154606895762026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_25
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1056
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028bdeb0ffb91b3c0800000000000000
+      internalID: -4345520645716723680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_26
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1056
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623d3d7ad36c9b920800000000000000
+      internalID: 3006652194357498662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddf72e8bb7e06870800000000000000
+      internalID: 8674187675045461470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_28
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 880
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddecf6ce645fc25a0800000000000000
+      internalID: -6544586473512907043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_29
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 880
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fe6c3e644e821e0800000000000000
+      internalID: -2222275422987030670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_30
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 880
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fa02c2a9d837750800000000000000
+      internalID: 6301535996926275460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_31
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 880
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851ae4fc312427080800000000000000
+      internalID: -9191211236659912360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_32
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 880
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394d996d20d494870800000000000000
+      internalID: 8667543632436909203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_33
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 880
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22de25ad1c04c030800000000000000
+      internalID: 3513946930720723498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_34
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 880
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857ca68f91e9d9880800000000000000
+      internalID: -8602545878828660904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_35
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 880
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ec39fadc68069e0800000000000000
+      internalID: -1630154847136002441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42766923a0b2226f0800000000000000
+      internalID: -710958468372732124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_37
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 704
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d66dbeb6806056c0800000000000000
+      internalID: -4156716324220999979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_38
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e6f28422a32dc50800000000000000
+      internalID: 6688472315512974922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_39
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 704
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1353ae762426991a0800000000000000
+      internalID: -6802297724815657679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_40
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 704
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30066fce58b32ccd0800000000000000
+      internalID: -2539401793491279869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_41
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 704
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a4ce13eece3d680800000000000000
+      internalID: -8731374744757319041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_42
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 704
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759d8e75fd9d66fc0800000000000000
+      internalID: -3501872106958169769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_43
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 704
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4818e5ef65dfaad80800000000000000
+      internalID: -8238494018244279932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_44
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 704
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7756a836804ca10800000000000000
+      internalID: 1928675764038105065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0f1f2c6e30bba20800000000000000
+      internalID: 3079059059885863084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 528
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dccf979736e1d30800000000000000
+      internalID: 4404066859003727136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_47
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 528
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f444f1011b98cec0800000000000000
+      internalID: -3546414209204730635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_48
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 528
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038f7d38dea220170800000000000000
+      internalID: 8143118275846862896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_49
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 528
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831e7660c5fd5b550800000000000000
+      internalID: 6176088050345959736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_50
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 528
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35507c7cd22c53780800000000000000
+      internalID: -8703837202942589613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_51
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 528
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f8f12da6c924240800000000000000
+      internalID: 4774550537571897136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_52
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 528
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d2d8280ab6b9bb0800000000000000
+      internalID: -4928227030097646299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_53
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 528
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517876a77502a3220800000000000000
+      internalID: 2466319306026616597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce334068f70f3270800000000000000
+      internalID: 8232307407204859595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_55
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8c3d1424ed50f80800000000000000
+      internalID: -8140856375248697157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_56
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 352
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c86455f5bb0e840800000000000000
+      internalID: 5251403183640972297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_57
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 352
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008947f2dc0a55d20800000000000000
+      internalID: 3266693907852072960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_58
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 352
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813db4c2665f5ade0800000000000000
+      internalID: -1322381096384736488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_59
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 352
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08870a288c8e7d980800000000000000
+      internalID: -8514080622637975424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_60
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 352
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c31683f4ea587c60800000000000000
+      internalID: 7816097092686189509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_61
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 352
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba69394fa4cfc1ac0800000000000000
+      internalID: -3882951379839117653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_62
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 352
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfced5451a82cbe0800000000000000
+      internalID: -1458451505343443004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ee3f0b363db3030800000000000000
+      internalID: 3475603962570468998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_64
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e22b6cdc688bec0800000000000000
+      internalID: -3550940087821652411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_65
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 176
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc6b85fcb5504fd0800000000000000
+      internalID: -2359791934680372040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_66
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 176
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f40c5482cca156a0800000000000000
+      internalID: -6462194038855695112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_67
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 176
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5413cc553d969a20800000000000000
+      internalID: 3068813048614687839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_68
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 176
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b678dae5912faffa0800000000000000
+      internalID: -5766030182117963925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_69
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 176
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3b534fa099daba0800000000000000
+      internalID: -6076032049927048266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_70
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 176
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817c17b38b0aa99e0800000000000000
+      internalID: -1613800803327162600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_71
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 176
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1fd604135d38750800000000000000
+      internalID: 6306118310759887349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GRANDMA CUTSCENE_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 288
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d648b963e35f09e0800000000000000
+      internalID: -1653010302025316649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
