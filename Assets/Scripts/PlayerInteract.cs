@@ -13,6 +13,8 @@ public class PlayerInteract : MonoBehaviour
     public string MainMenu;
     public string WinSceen;
     public bool canInteract;
+    public GameObject breakfast;
+    public GameObject lunch;
 
     private PlayerInput _input;
     private HealthManager _health;
@@ -21,8 +23,10 @@ public class PlayerInteract : MonoBehaviour
     {
         _input = GetComponent<PlayerInput>();
         _health = GetComponent<HealthManager>();
+        breakfast.SetActive(false);
+        lunch.SetActive(false);
     }
-
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("DogTreat"))
@@ -108,6 +112,15 @@ public class PlayerInteract : MonoBehaviour
         if (other.CompareTag("TableCollider1") && score < 1)
         {
             score++;
+            breakfast.SetActive(true);
+            print("food worked so you should be happy");
         }
+
+        if (other.CompareTag("TableCollider2") && score < 1)
+        {
+            score++;
+            lunch.SetActive(true);
+        }
+
     }
 }
