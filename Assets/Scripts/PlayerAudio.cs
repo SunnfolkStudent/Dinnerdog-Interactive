@@ -17,6 +17,7 @@ public class PlayerAudio : MonoBehaviour
     public AudioClip BIGDOG;
     public AudioClip GrannyTrans;
     public AudioClip Ding;
+    public AudioClip Damage;
 
     private void Start()
     {
@@ -44,5 +45,10 @@ public class PlayerAudio : MonoBehaviour
     {
         _AudioSource.PlayOneShot(Ding);
         _sign.text.SetActive(true);
+    }
+
+    public void damage()
+    {
+        _AudioSource.PlayOneShot(Damage);
     }
 }

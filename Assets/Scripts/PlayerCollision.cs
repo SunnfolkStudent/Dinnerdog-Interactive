@@ -12,6 +12,7 @@ public class PlayerCollision : MonoBehaviour
 
     private SceneController sceneControl;
     private HealthManager healthManager;
+    private PlayerAudio _audio;
 
     private void Start()
     {
@@ -34,6 +35,7 @@ public class PlayerCollision : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             healthManager.ReduceLives();
+            _audio.damage();
         }
     }
 

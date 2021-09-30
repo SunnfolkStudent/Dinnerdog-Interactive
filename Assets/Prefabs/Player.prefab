@@ -278,6 +278,7 @@ MonoBehaviour:
   BIGDOG: {fileID: 8300000, guid: 88eafff3a5b814142a15ed8e8b333ba8, type: 3}
   GrannyTrans: {fileID: 0}
   Ding: {fileID: 0}
+  Damage: {fileID: 8300000, guid: ac1f842a0dcf8a744ad851eaaf20f892, type: 3}
 --- !u!50 &3240130474173057189
 Rigidbody2D:
   serializedVersion: 4
@@ -460,6 +461,8 @@ MonoBehaviour:
   MainMenu: 
   WinSceen: 
   canInteract: 0
+  breakfast: {fileID: 0}
+  lunch: {fileID: 0}
 --- !u!95 &1173331173
 Animator:
   serializedVersion: 3
