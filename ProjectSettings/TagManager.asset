@@ -13,6 +13,7 @@ TagManager:
   - Exit
   - DogTreat
   - Sign
+  - Portal
   layers:
   - Default
   - TransparentFX
