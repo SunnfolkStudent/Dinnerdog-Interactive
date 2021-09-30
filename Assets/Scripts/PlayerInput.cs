@@ -7,6 +7,8 @@ public class PlayerInput : MonoBehaviour
     [HideInInspector] public bool dash;
     [HideInInspector] public bool interact;
     [HideInInspector] public bool attack;
+    [HideInInspector] public bool quit;
+    [HideInInspector] public bool resart;
     
     private void Update()
     {
@@ -21,6 +23,11 @@ public class PlayerInput : MonoBehaviour
         dash = Keyboard.current.spaceKey.wasPressedThisFrame;
         interact = Keyboard.current.fKey.wasPressedThisFrame;
         attack = Keyboard.current.kKey.wasPressedThisFrame;
+
+        quit = Keyboard.current.escapeKey.wasPressedThisFrame;
+        resart = Keyboard.current.rKey.wasPressedThisFrame;
+        
+        
 
         // My little Bugfix
         if (Keyboard.current.escapeKey.wasPressedThisFrame)

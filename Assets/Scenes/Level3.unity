@@ -710,7 +710,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164359464}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.3843875, y: 21.928343, z: -170.3691}
+  m_LocalPosition: {x: 7.3843875, y: 21.928343, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1279271412}
@@ -15376,6 +15376,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5831257641786309551, guid: 1d73010600b4ff34887b9e8846f2f343, type: 3}
   m_PrefabInstance: {fileID: 1030785952}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1039138703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1039138705}
+  - component: {fileID: 1039138704}
+  m_Layer: 0
+  m_Name: Extra_ElectricPiano
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1039138704
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039138703}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300000, guid: c027f64332b495249af19051a8b83e56, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.25, y: 2.25}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1039138705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039138703}
+  m_LocalRotation: {x: -0, y: -0, z: 0.25706816, w: -0.9663933}
+  m_LocalPosition: {x: -13, y: -20.38, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -29.792}
 --- !u!1001 &1060316429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15789,7 +15872,7 @@ GameObject:
   - component: {fileID: 1248830302}
   - component: {fileID: 1248830301}
   m_Layer: 0
-  m_Name: Untitled
+  m_Name: Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15809,7 +15892,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -15984,11 +16067,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6961512113931499390, guid: 2d5250d960aa7c648a763c716172b61b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.12015
+      value: -15.73
       objectReference: {fileID: 0}
     - target: {fileID: 6961512113931499390, guid: 2d5250d960aa7c648a763c716172b61b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -20.649282
+      value: -18.12
       objectReference: {fileID: 0}
     - target: {fileID: 6961512113931499390, guid: 2d5250d960aa7c648a763c716172b61b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17310,11 +17393,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5547139993316582496, guid: b205e43cd446c38489a2c5a9d54d8809, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.7783171
+      value: 1.7770475
       objectReference: {fileID: 0}
     - target: {fileID: 5547139993316582496, guid: b205e43cd446c38489a2c5a9d54d8809, type: 3}
       propertyPath: m_Lens.OrthographicSize
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5547139993316582497, guid: b205e43cd446c38489a2c5a9d54d8809, type: 3}
       propertyPath: m_Name
@@ -132989,7 +133072,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
