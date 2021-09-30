@@ -4,27 +4,27 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-    public void LoadScene(string sceneName)
+    public static void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
     
-    public void LoadScene(int sceneNumber)
+    public static void LoadScene(int sceneNumber)
     {
         SceneManager.LoadScene(sceneNumber);
     }
     
-    public void ResetScene()
+    public static void ResetScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public void QuitGame()
+    public static void QuitGame()
     {
-#if UNITY_EDITOR
-        EditorApplication.isPlaying = false;
-#else
-        Application.Quit();
-#endif
+        #if UNITY_EDITOR
+                EditorApplication.isPlaying = false;
+        #else
+                Application.Quit();
+        #endif
     }
 }
