@@ -6,6 +6,7 @@ using Microsoft.Unity.VisualStudio.Editor;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class signSystem : MonoBehaviour
 {
@@ -34,14 +35,14 @@ public class signSystem : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && PlayerInteract.score <= 0)
+        if (other.CompareTag("Player") /*&& PlayerInteract.score <= 0*/)
         {
             text.SetActive(true);
         }
     }
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player") )
+        if (other.CompareTag("Player") && PlayerInteract.score <= 0)
         {
             text.SetActive(false);
         }

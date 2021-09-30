@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Sockets;
 using Managers;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
@@ -55,6 +56,7 @@ public class PlayerInteract : MonoBehaviour
             _audio.food();
         }
         
+        /*
         if (other.CompareTag("Exit"))
         {
             if (score <= 3)
@@ -63,20 +65,19 @@ public class PlayerInteract : MonoBehaviour
                 canInteract = true;
             }
         }
+        */
         
         if (other.CompareTag("PortalKitchen1"))
         {
             SceneController.LoadScene("Level1");
+            score = 0;
         }
         if (other.CompareTag("PortalLevel1"))
         {
             if (score >= 3)
             {
                 SceneController.LoadScene("Kitchen2");
-            }
-            else
-            {
-                print("Granny needs more food");
+                score = 0;
             }
         }
         if (other.CompareTag("PortalKitchen2"))
@@ -84,22 +85,16 @@ public class PlayerInteract : MonoBehaviour
             if (score >= 1)
             {
                 SceneController.LoadScene("Level2");
+                score = 0;
             }
-            else
-            {
-                print("Granny needs her food");
-            }
+            
         }
         if (other.CompareTag("PortalLevel2"))
         {
             if (score >= 3)
             {
-                print("you can now go to score 3");
                 SceneController.LoadScene("Kitchen3");
-            }
-            else
-            {
-                print("Granny needs more food");
+                score = 0;
             }
         }
 
@@ -108,10 +103,7 @@ public class PlayerInteract : MonoBehaviour
             if (score >= 1)
             {
                 SceneController.LoadScene("Level3");
-            }
-            else
-            {
-                print("Granny needs her food");
+                score = 0;
             }
         }
 
@@ -120,10 +112,7 @@ public class PlayerInteract : MonoBehaviour
             if (score >= 3)
             {
                 SceneController.LoadScene("EndScene");
-            }
-            else
-            {
-                print("Granny needs her food");
+                score = 0;
             }
         }
     
@@ -131,12 +120,10 @@ public class PlayerInteract : MonoBehaviour
         {
             score++;
             breakfast.SetActive(true);
-            print("food worked so you should be happy");
         }
 
         if (other.CompareTag("TableCollider2") && score < 1)
         {
-            print("lunch has been placed");
             score++;
             lunch.SetActive(true);
         }

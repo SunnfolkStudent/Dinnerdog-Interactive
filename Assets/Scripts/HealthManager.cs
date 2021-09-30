@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 namespace Managers
 {
@@ -19,6 +20,7 @@ namespace Managers
         [SerializeField] private float invincibilityTime = 1f;
         private SceneController _sceneController;
         private PlayerAudio _audio;
+        private PlayerInteract _interact;
 
         private void Awake()
         {
@@ -31,6 +33,7 @@ namespace Managers
             heart2.SetActive(true);
             heart3.SetActive(true);
             _audio = GetComponent<PlayerAudio>();
+            _interact = GetComponent<PlayerInteract>();
         }
 
         public static void SetLives(int value)
@@ -62,24 +65,21 @@ namespace Managers
             }
             if (lives >= 3)
             {
-               heart1.SetActive(true);
+                heart1.SetActive(true);
                 heart2.SetActive(true);
                 heart3.SetActive(true);
-                print("Aww");
             }
             else if (lives == 2)
             {
                 heart1.SetActive(true);
                 heart2.SetActive(true);
                 heart3.SetActive(false);
-                print("Aww");
             }
             else if (lives == 1)
             {
                 heart1.SetActive(true);
                 heart2.SetActive(false);
                 heart3.SetActive(false);
-                print("Aww");
             }
             else if (lives < 1)
             {
@@ -88,6 +88,7 @@ namespace Managers
                 heart3.SetActive(false);
                 Destroy(gameObject);
 
+                PlayerInteract.score = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
