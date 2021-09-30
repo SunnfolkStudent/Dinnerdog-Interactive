@@ -7,7 +7,6 @@ using Random = UnityEngine.Random;
 public class PlayerAudio : MonoBehaviour
 {
     // public AudioClip Jump;
-    
     private AudioSource _AudioSource;
     private PlayerInput _Input;
     private PlayerMovement _playerMovement;
