@@ -460,7 +460,7 @@ MonoBehaviour:
   MainMenu: 
   WinSceen: 
   canInteract: 0
-  breakfast: {fileID: 0}
+  breakfast: {fileID: 2597709440968772899, guid: 3e4f60a8cc86a4e40a7de9c3bfba59a5, type: 3}
   lunch: {fileID: 22019996954624845, guid: fce7fc560d365c94db702f52c64c029b, type: 3}
 --- !u!95 &1173331173
 Animator:
