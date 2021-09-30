@@ -9,6 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Kitchen1 Menu.unity
     guid: ed66f622498b3504ab333671c3d0de5b
   - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 4bcdec69a56bfbc4fbce4b9c315f3038
+  - enabled: 1
+    path: Assets/Scenes/Kitchen2.unity
+    guid: f6a6edc37d6af8443be632d3974024ed
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 8217983e950981f4385266400a02033f
+  - enabled: 1
+    path: Assets/Scenes/Kitchen3.unity
+    guid: 566a64584a2a50b4b97f1b1dc567795f
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: e146e5574c8263d4bbb6fc7630c9a83f
+  - enabled: 1
     path: Assets/Scenes/EndScene.unity
     guid: 9f9f960b68bed5f4b82b2e17e24094e7
   m_configObjects: {}

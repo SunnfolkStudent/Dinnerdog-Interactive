@@ -19,6 +19,7 @@ TagManager:
   - PortalLevel1
   - PortalLevel2
   - PortalLevel3
+  - RandomTag404
   layers:
   - Default
   - TransparentFX
