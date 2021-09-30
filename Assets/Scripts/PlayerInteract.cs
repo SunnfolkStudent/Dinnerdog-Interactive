@@ -35,6 +35,12 @@ public class PlayerInteract : MonoBehaviour
             Destroy(other.gameObject);
         }
 
+        if (other.CompareTag("Cookie"))
+        {
+            HealthManager.lives--;
+            Destroy(other.gameObject);
+        }
+
         if (other.CompareTag("Food"))
         {
             score++;
