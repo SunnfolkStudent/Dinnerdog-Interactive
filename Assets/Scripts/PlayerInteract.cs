@@ -16,7 +16,7 @@ public class PlayerInteract : MonoBehaviour
 
     private PlayerInput _input;
     private HealthManager _health;
-    
+
     private void Start()
     {
         _input = GetComponent<PlayerInput>();
@@ -43,6 +43,66 @@ public class PlayerInteract : MonoBehaviour
             {
                 print("Press F to Exit");
                 canInteract = true;
+            }
+        }
+        
+        if (other.CompareTag("PortalKitchen1"))
+        {
+            SceneController.LoadScene("Level1");
+        }
+        if (other.CompareTag("PortalLevel1"))
+        {
+            if (score >= 3)
+            {
+                SceneController.LoadScene("Kitchen2");
+            }
+            else
+            {
+                print("Granny needs more food");
+            }
+        }
+        if (other.CompareTag("PortalKitchen2"))
+        {
+            if (score >= 1)
+            {
+                SceneController.LoadScene("Level2");
+            }
+            else
+            {
+                print("Granny needs her food");
+            }
+        }
+        if (other.CompareTag("PortalLevel2"))
+        {
+            if (score >= 3)
+            {
+                SceneController.LoadScene("Kitchen3");
+            }
+            else
+            {
+                print("Granny needs more food");
+            }
+        }
+        if (other.CompareTag("PortalKitchen3"))
+        {
+            if (score >= 3)
+            {
+                SceneController.LoadScene("Level3");
+            }
+            else
+            {
+                print("Granny needs her food");
+            }
+            if (other.CompareTag("PortalLevel3"))
+            {
+                if (score >= 3)
+                {
+                    SceneController.LoadScene("EndScene");
+                }
+                else
+                {
+                    print("Granny needs her food");
+                }
             }
         }
     }
