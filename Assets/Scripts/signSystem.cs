@@ -16,9 +16,9 @@ public class signSystem : MonoBehaviour
         _interact = GetComponent<PlayerInteract>();
     }
 
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && _interact.score == 0)
+        if (other.CompareTag("Player"))
         {
             text.SetActive(true);
         }
