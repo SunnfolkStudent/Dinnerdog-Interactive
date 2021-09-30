@@ -19,8 +19,9 @@ public class PlayerMovement : MonoBehaviour
     [Header("Dash")]
     [SerializeField] private float dashForce = 15f;
     public float dashTime = 0.3f;  //WaitForSeconds in IEnumerator
-    public float dashCooldown = 2;
+    public float dashCooldown = 1.5f;
     public bool isDashing = false;
+    public bool canDash = true;
     
     //Save position
     public Vector2 savePosition;
@@ -36,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (_Input.dash && !isDashing)
+        if (_Input.dash && !isDashing && canDash)
         {
             StartCoroutine(Dash());
         }
@@ -54,6 +55,14 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         _Rigidbody2D.velocity = Vector2.zero;
         isDashing = false;
+    }
+
+    private IEnumerator DashCooldown()
+    {
+        print("Dash cooldown initiated");
+        canDash = false;
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
     }
     private void PosTime()
     {

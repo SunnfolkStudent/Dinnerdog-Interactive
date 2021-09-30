@@ -15,7 +15,7 @@ public class PlayerAudio : MonoBehaviour
     private PlayerAnimations _animations;
 
     public AudioClip BIGDOG;
-    
+
     private void Start()
     {
         _AudioSource = GetComponent<AudioSource>();
