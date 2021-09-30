@@ -29,6 +29,9 @@ public class PlayerInteract : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
+        {
+            
+        }
         if (other.CompareTag("DogTreat"))
         {
             HealthManager.lives++;
@@ -86,6 +89,7 @@ public class PlayerInteract : MonoBehaviour
         {
             if (score >= 3)
             {
+                print("you can now go to score 3");
                 SceneController.LoadScene("Kitchen3");
             }
             else
@@ -127,9 +131,15 @@ public class PlayerInteract : MonoBehaviour
 
         if (other.CompareTag("TableCollider2") && score < 1)
         {
+            print("lunch has been placed");
             score++;
             lunch.SetActive(true);
         }
 
+    }
+
+    private void Update()
+    {
+        print("Current score: " +score);
     }
 }
