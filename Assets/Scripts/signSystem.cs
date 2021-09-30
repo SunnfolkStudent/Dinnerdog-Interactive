@@ -7,16 +7,14 @@ using UnityEngine;
 public class signSystem : MonoBehaviour
 {
     public GameObject text;
-
-    private PlayerInteract _interact;
+    
 
     private void Start()
     {
         text.SetActive(false);
-        _interact = GetComponent<PlayerInteract>();
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {

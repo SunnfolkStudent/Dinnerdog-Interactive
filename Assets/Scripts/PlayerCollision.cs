@@ -34,6 +34,7 @@ public class PlayerCollision : MonoBehaviour
         
         if (other.CompareTag("Enemy"))
         {
+            print("hit");
             healthManager.ReduceLives();
             _audio.damage();
         }
