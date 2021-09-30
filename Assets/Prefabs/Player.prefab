@@ -248,7 +248,7 @@ MonoBehaviour:
   whatIsEnemies:
     serializedVersion: 2
     m_Bits: 64
-  attackRange: 1
+  attackRange: 2
   damage: 1
 --- !u!114 &-3707588984408031603
 MonoBehaviour:
@@ -279,6 +279,8 @@ MonoBehaviour:
   GrannyTrans: {fileID: 0}
   Ding: {fileID: 0}
   Damage: {fileID: 8300000, guid: ac1f842a0dcf8a744ad851eaaf20f892, type: 3}
+  Heal: {fileID: 8300000, guid: 929281e888dafad4588045c0e46801b5, type: 3}
+  Food: {fileID: 8300000, guid: 606eaacbdf7a9ee4cba600c16b138bc7, type: 3}
 --- !u!50 &3240130474173057189
 Rigidbody2D:
   serializedVersion: 4

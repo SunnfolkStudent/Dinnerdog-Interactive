@@ -3,7 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
 using Microsoft.Unity.VisualStudio.Editor;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class signSystem : MonoBehaviour
 {
@@ -11,11 +13,23 @@ public class signSystem : MonoBehaviour
     public GameObject title;
     public GameObject image;
 
+    public GameObject light1;
+    public GameObject light2;
+
+   
+
     private void Start()
     {
         text.SetActive(false);
         title.SetActive(true);
         image.SetActive(true);
+        light1.SetActive(false);
+        light2.SetActive(false);
+    }
+
+    private void Update()
+    {
+        HUD();
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -32,15 +46,14 @@ public class signSystem : MonoBehaviour
             text.SetActive(false);
         }
     }
-
-    private void hud()
+    private void HUD()
     {
-        if (Input.anyKey)
+        if (Keyboard.current.anyKey.wasPressedThisFrame)
         {
             title.SetActive(false);
             image.SetActive(false);
+            light1.SetActive(true);
+            light2.SetActive(true);
         }
     }
-    
-    
 }

@@ -18,6 +18,8 @@ public class PlayerAudio : MonoBehaviour
     public AudioClip GrannyTrans;
     public AudioClip Ding;
     public AudioClip Damage;
+    public AudioClip Heal;
+    public AudioClip Food;
 
     private void Start()
     {
@@ -50,5 +52,15 @@ public class PlayerAudio : MonoBehaviour
     public void damage()
     {
         _AudioSource.PlayOneShot(Damage);
+    }
+
+    public void heal()
+    {
+        _AudioSource.PlayOneShot(Heal);
+    }
+
+    public void food()
+    {
+        _AudioSource.PlayOneShot(Food);
     }
 }

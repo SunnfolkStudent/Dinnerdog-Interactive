@@ -18,6 +18,8 @@ public class PlayerInteract : MonoBehaviour
 
     private PlayerInput _input;
     private HealthManager _health;
+    
+    private PlayerAudio _audio;
 
     private void Start()
     {
@@ -25,6 +27,7 @@ public class PlayerInteract : MonoBehaviour
         _health = GetComponent<HealthManager>();
         breakfast.SetActive(false);
         lunch.SetActive(false);
+        _audio = GetComponent<PlayerAudio>();
     }
     
     private void OnTriggerEnter2D(Collider2D other)
@@ -32,6 +35,7 @@ public class PlayerInteract : MonoBehaviour
         if (other.CompareTag("DogTreat"))
         {
             HealthManager.lives++;
+            _audio.heal();
             Destroy(other.gameObject);
         }
 
@@ -44,6 +48,7 @@ public class PlayerInteract : MonoBehaviour
         if (other.CompareTag("Food"))
         {
             score++;
+            _audio.food();
             Destroy(other.gameObject);
         }
         

@@ -18,7 +18,7 @@ namespace Managers
         public bool isInvincible;
         [SerializeField] private float invincibilityTime = 1f;
         private SceneController _sceneController;
-        
+        private PlayerAudio _audio;
 
         private void Awake()
         {
@@ -30,6 +30,7 @@ namespace Managers
             heart1.SetActive(true);
             heart2.SetActive(true);
             heart3.SetActive(true);
+            _audio = GetComponent<PlayerAudio>();
         }
 
         public static void SetLives(int value)
@@ -47,6 +48,7 @@ namespace Managers
             if (!isInvincible)
             {
                 lives--;
+                _audio.damage();
                 StartCoroutine(Invincibility());
             }
         }
@@ -60,7 +62,7 @@ namespace Managers
             }
             if (lives >= 3)
             {
-                heart1.SetActive(true);
+               heart1.SetActive(true);
                 heart2.SetActive(true);
                 heart3.SetActive(true);
                 print("Aww");
