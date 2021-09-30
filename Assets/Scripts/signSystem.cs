@@ -7,7 +7,6 @@ using UnityEngine;
 public class signSystem : MonoBehaviour
 {
     public GameObject text;
-    
 
     private void Start()
     {
@@ -16,14 +15,14 @@ public class signSystem : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && PlayerInteract.score <= 0)
         {
             text.SetActive(true);
         }
     }
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") )
         {
             text.SetActive(false);
         }

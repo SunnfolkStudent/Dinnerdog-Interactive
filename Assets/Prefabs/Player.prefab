@@ -457,11 +457,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e011d47ce3154774f8bde6c37dd190a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
   MainMenu: 
   WinSceen: 
   canInteract: 0
-  breakfast: {fileID: 2597709440968772899, guid: 3e4f60a8cc86a4e40a7de9c3bfba59a5, type: 3}
+  breakfast: {fileID: 0}
   lunch: {fileID: 22019996954624845, guid: fce7fc560d365c94db702f52c64c029b, type: 3}
 --- !u!95 &1173331173
 Animator:
@@ -473,7 +472,7 @@ Animator:
   m_GameObject: {fileID: 3240130474173057197}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ec47733ecd020a54f96eaf2cdeee04ec, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8b4a0ea75b66e8d46b9c0287971f3bed, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

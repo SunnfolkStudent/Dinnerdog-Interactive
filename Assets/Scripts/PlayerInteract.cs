@@ -8,7 +8,7 @@ using UnityEngine.SocialPlatforms.Impl;
 public class PlayerInteract : MonoBehaviour
 {
 
-    public float score = 0f;
+    public static float score = 0f;
     [Space(5)] 
     public string MainMenu;
     public string WinSceen;
