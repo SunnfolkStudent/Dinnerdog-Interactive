@@ -20,6 +20,7 @@ public class PlayerCollision : MonoBehaviour
         healthManager = GetComponent<HealthManager>();
         _input = GetComponent<PlayerInput>();
         _movement = GetComponent<PlayerMovement>();
+        _audio = GetComponent<PlayerAudio>();
     }
 
 
@@ -36,7 +37,6 @@ public class PlayerCollision : MonoBehaviour
         {
             print("hit");
             healthManager.ReduceLives();
-            _audio.damage();
         }
     }
 
