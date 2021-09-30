@@ -12,9 +12,11 @@ public class PlayerAudio : MonoBehaviour
     private PlayerMovement _playerMovement;
     private PlayerCollision _collision;
     private PlayerAnimations _animations;
+    private signSystem _sign;
 
     public AudioClip BIGDOG;
     public AudioClip GrannyTrans;
+    public AudioClip Ding;
 
     private void Start()
     {
@@ -23,6 +25,7 @@ public class PlayerAudio : MonoBehaviour
         _playerMovement = GetComponent<PlayerMovement>();
         _collision = GetComponent<PlayerCollision>();
         _animations = GetComponent<PlayerAnimations>();
+        _sign = GetComponent<signSystem>();
     }
     private void BarkAudio()
     {
@@ -32,9 +35,14 @@ public class PlayerAudio : MonoBehaviour
             _AudioSource.PlayOneShot(BIGDOG);   
         }
     }
-
     private void grandma()
     {
         _AudioSource.PlayOneShot(GrannyTrans);
+    }
+
+    private void ding()
+    {
+        _AudioSource.PlayOneShot(Ding);
+        _sign.text.SetActive(true);
     }
 }
