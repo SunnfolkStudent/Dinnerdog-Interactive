@@ -24,8 +24,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 595300621}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.08, y: 1.04, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.033, y: 1.04, z: 0}
+  m_LocalScale: {x: 0.95, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3240130474173057194}
   m_RootOrder: 2
@@ -54,7 +54,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1843306388}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.09, y: -0.92, z: 0}
+  m_LocalPosition: {x: -0.008, y: -0.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3240130474173057194}
@@ -249,7 +249,7 @@ MonoBehaviour:
   whatIsEnemies:
     serializedVersion: 2
     m_Bits: 64
-  attackRange: 1
+  attackRange: 0.5
   damage: 1
 --- !u!114 &-3707588984408031603
 MonoBehaviour:
@@ -461,6 +461,8 @@ MonoBehaviour:
   MainMenu: 
   WinSceen: 
   canInteract: 0
+  breakfast: {fileID: 2597709440968772899, guid: 3e4f60a8cc86a4e40a7de9c3bfba59a5, type: 3}
+  lunch: {fileID: 22019996954624845, guid: fce7fc560d365c94db702f52c64c029b, type: 3}
 --- !u!95 &1173331173
 Animator:
   serializedVersion: 3
@@ -469,7 +471,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3240130474173057197}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: ec47733ecd020a54f96eaf2cdeee04ec, type: 2}
   m_CullingMode: 0
