@@ -41,11 +41,12 @@ public class PlayerInteract : MonoBehaviour
             HealthManager.lives++;
             Destroy(other.gameObject);
             _audio.heal();
+            
         }
 
         if (other.CompareTag("Cookie"))
         {
-            HealthManager.lives--;
+            HealthManager.SetLives(0);
             Destroy(other.gameObject);
         }
 
