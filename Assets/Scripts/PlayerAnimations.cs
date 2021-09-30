@@ -33,7 +33,6 @@ public class PlayerAnimations : MonoBehaviour
         _audio = GetComponent<PlayerAudio>();
         _AudioSource = GetComponent<AudioSource>();
         _attack = GetComponent<PlayerAttack>();
-
     }
     
     private void Update()
@@ -42,7 +41,6 @@ public class PlayerAnimations : MonoBehaviour
         {
             _animator.SetFloat(_sideWalk, _input.moveVector.x);
             _animator.SetFloat(_upDown, _input.moveVector.y);
-            
             _barkAnim.SetFloat(_sideWalk, _input.moveVector.x);
             _barkAnim.SetFloat(_upDown, _input.moveVector.y);
             _animator.SetBool(CanWalk, true);
@@ -79,12 +77,5 @@ public class PlayerAnimations : MonoBehaviour
         {
             transform.localScale = new Vector3(1f, 1f);
         }
-
-        /*
-        if (_input.attack)
-        {
-            _animator.Play("PlayerBark");
-        }
-        */
     }
 }
