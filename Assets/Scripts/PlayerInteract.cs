@@ -38,8 +38,8 @@ public class PlayerInteract : MonoBehaviour
         if (other.CompareTag("DogTreat"))
         {
             HealthManager.lives++;
-            _audio.heal();
             Destroy(other.gameObject);
+            _audio.heal();
         }
 
         if (other.CompareTag("Cookie"))
@@ -51,8 +51,8 @@ public class PlayerInteract : MonoBehaviour
         if (other.CompareTag("Food"))
         {
             score++;
-            _audio.food();
             Destroy(other.gameObject);
+            _audio.food();
         }
         
         if (other.CompareTag("Exit"))
