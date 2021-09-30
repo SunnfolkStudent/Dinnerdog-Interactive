@@ -14387,15 +14387,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1450736223}
     m_Modifications:
-    - target: {fileID: 8031582433314149728, guid: 0601f39bb0cf5fb44af280f67d705c5a, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_Size.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8031582433314149728, guid: 0601f39bb0cf5fb44af280f67d705c5a, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_Offset.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8031582433314149728, guid: 0601f39bb0cf5fb44af280f67d705c5a, type: 3}
+    - target: {fileID: 0}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -96778,9 +96778,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6578621395761591411, guid: ab7cc3fb0423b2e49b772d356f9e46de, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 754136857eec02b44b03ca2b7f92a591, type: 3}
     - target: {fileID: 9214588245281564208, guid: ab7cc3fb0423b2e49b772d356f9e46de, type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 9214588245281564210, guid: ab7cc3fb0423b2e49b772d356f9e46de, type: 3}
+      propertyPath: orthographic size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9214588245281564213, guid: ab7cc3fb0423b2e49b772d356f9e46de, type: 3}
       propertyPath: m_RootOrder

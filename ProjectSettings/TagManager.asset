@@ -13,6 +13,13 @@ TagManager:
   - Exit
   - DogTreat
   - Sign
+  - PortalKitchen1
+  - PortalKitchen2
+  - PortalKitchen3
+  - PortalLevel1
+  - PortalLevel2
+  - PortalLevel3
+  - RandomTag404
   layers:
   - Default
   - TransparentFX

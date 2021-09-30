@@ -3,6 +3,7 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace Managers
 {
@@ -16,6 +17,7 @@ namespace Managers
         public GameObject heart1;
         public bool isInvincible;
         [SerializeField] private float invincibilityTime = 1f;
+        private SceneController _sceneController;
         
 
         private void Awake()
@@ -83,8 +85,8 @@ namespace Managers
                 heart2.SetActive(false);
                 heart3.SetActive(false);
                 Destroy(gameObject);
-                
-                print("Die");
+
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
 
