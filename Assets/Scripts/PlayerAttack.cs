@@ -25,6 +25,8 @@ public class PlayerAttack : MonoBehaviour
     
     
     private PlayerInput _Input;
+
+    private PlayerAnimations _animations;
     
     
     // Start is called before the first frame update
@@ -66,6 +68,10 @@ public class PlayerAttack : MonoBehaviour
                     print("attack up");
                     Collider2D[] enemiesToDamageUp =
                         Physics2D.OverlapCircleAll(attackPosUp.position, attackRange, whatIsEnemies);
+
+                   
+                    
+                    
                     for (int i = 0; i < enemiesToDamageUp.Length; i++)
                     {
                         enemiesToDamageUp[i].GetComponent<EnemyHealth>().EnemyTakeDamage(damage);
@@ -77,6 +83,7 @@ public class PlayerAttack : MonoBehaviour
                     print("attack normal");
                     Collider2D[] enemiesToDamage =
                         Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
+                    
                     for (int i = 0; i < enemiesToDamage.Length; i++)
                     {
                         enemiesToDamage[i].GetComponent<EnemyHealth>().EnemyTakeDamage(damage);
@@ -88,6 +95,7 @@ public class PlayerAttack : MonoBehaviour
                     print("attack down");
                     Collider2D[] enemiesToDamageDown =
                         Physics2D.OverlapCircleAll(attackPosDown.position, attackRange, whatIsEnemies);
+                    
                     for (int i = 0; i < enemiesToDamageDown.Length; i++)
                     {
                         enemiesToDamageDown[i].GetComponent<EnemyHealth>().EnemyTakeDamage(damage);
