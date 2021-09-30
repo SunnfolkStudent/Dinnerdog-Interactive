@@ -22,6 +22,7 @@ TagManager:
   - RandomTag404
   - TableCollider1
   - TableCollider2
+  - Cookie
   layers:
   - Default
   - TransparentFX
