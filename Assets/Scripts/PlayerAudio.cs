@@ -14,6 +14,7 @@ public class PlayerAudio : MonoBehaviour
     private PlayerAnimations _animations;
 
     public AudioClip BIGDOG;
+    public AudioClip GrannyTrans;
 
     private void Start()
     {
@@ -30,5 +31,10 @@ public class PlayerAudio : MonoBehaviour
             _AudioSource.pitch = Random.Range(0.8f, 1.2f);
             _AudioSource.PlayOneShot(BIGDOG);   
         }
+    }
+
+    private void grandma()
+    {
+        _AudioSource.PlayOneShot(GrannyTrans);
     }
 }
