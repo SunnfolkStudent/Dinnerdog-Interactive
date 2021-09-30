@@ -40,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
         if (_Input.dash && !isDashing && canDash)
         {
             StartCoroutine(Dash());
+            StartCoroutine(DashCooldown());
         }
         else if (!isDashing)
         {
