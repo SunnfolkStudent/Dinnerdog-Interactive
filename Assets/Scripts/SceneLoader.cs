@@ -6,20 +6,43 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    private SceneController sceneController;
     private PlayerInteract playerInteract;
 
     private void Start()
     {
-        sceneController = GetComponent<SceneController>();
         playerInteract = GetComponent<PlayerInteract>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (playerInteract.score == 0)
         {
-            
+            SceneController.LoadScene("Level1");
+        }
+
+        if (playerInteract.score >= 3)
+        {
+            SceneController.LoadScene("Kitchen2");
+        }
+        
+        if (playerInteract.score >= 1)
+        {
+            SceneController.LoadScene("Level2");
+        }
+        
+        if (playerInteract.score >= 3)
+        {
+            SceneController.LoadScene("Kitchen3");
+        }
+        
+        if (playerInteract.score >= 1)
+        {
+            SceneController.LoadScene("Level3");
+        }
+
+        if (playerInteract.score >= 3)
+        {
+            SceneController.LoadScene("EndScene");
         }
     }
-}
+}    

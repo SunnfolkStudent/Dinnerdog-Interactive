@@ -7,7 +7,6 @@ using Random = UnityEngine.Random;
 public class PlayerAudio : MonoBehaviour
 {
     // public AudioClip Jump;
-    
     private AudioSource _AudioSource;
     private PlayerInput _Input;
     private PlayerMovement _playerMovement;
@@ -15,7 +14,8 @@ public class PlayerAudio : MonoBehaviour
     private PlayerAnimations _animations;
 
     public AudioClip BIGDOG;
-    
+    public AudioClip GrannyTrans;
+
     private void Start()
     {
         _AudioSource = GetComponent<AudioSource>();
@@ -31,5 +31,10 @@ public class PlayerAudio : MonoBehaviour
             _AudioSource.pitch = Random.Range(0.8f, 1.2f);
             _AudioSource.PlayOneShot(BIGDOG);   
         }
+    }
+
+    private void grandma()
+    {
+        _AudioSource.PlayOneShot(GrannyTrans);
     }
 }
