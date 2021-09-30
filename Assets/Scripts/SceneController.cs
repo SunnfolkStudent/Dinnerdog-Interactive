@@ -1,9 +1,18 @@
-using UnityEditor;
+using System;
+using System.Security.Principal;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
+
+    private PlayerInput _input;
+
+    private void Start()
+    {
+        _input = GetComponent<PlayerInput>();
+    }
+
     public static void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
@@ -19,12 +28,20 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public static void QuitGame()
+    public void QuitGame()
     {
-        #if UNITY_EDITOR
-                EditorApplication.isPlaying = false;
-        #else
-                Application.Quit();
-        #endif
+        if (_input.quit)
+        {
+            Application.Quit();
+        }
+    }
+
+    public void RestartGame()
+    {
+        if (_input.resart)
+        {
+            SceneManager.LoadScene("Kitchen1 Menu");
+            PlayerInteract.score = 0;
+        }
     }
 }

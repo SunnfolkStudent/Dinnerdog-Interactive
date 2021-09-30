@@ -8,6 +8,7 @@ public class PlayerInput : MonoBehaviour
     [HideInInspector] public bool interact;
     [HideInInspector] public bool attack;
     [HideInInspector] public bool quit;
+    [HideInInspector] public bool resart;
     
     private void Update()
     {
@@ -24,6 +25,7 @@ public class PlayerInput : MonoBehaviour
         attack = Keyboard.current.kKey.wasPressedThisFrame;
 
         quit = Keyboard.current.escapeKey.wasPressedThisFrame;
+        resart = Keyboard.current.rKey.wasPressedThisFrame;
         
         
 
