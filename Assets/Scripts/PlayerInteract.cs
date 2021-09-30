@@ -93,6 +93,7 @@ public class PlayerInteract : MonoBehaviour
                 print("Granny needs more food");
             }
         }
+
         if (other.CompareTag("PortalKitchen3"))
         {
             if (score >= 3)
@@ -103,18 +104,20 @@ public class PlayerInteract : MonoBehaviour
             {
                 print("Granny needs her food");
             }
-            if (other.CompareTag("PortalLevel3"))
+        }
+
+        if (other.CompareTag("PortalLevel3"))
+        {
+            if (score >= 3)
             {
-                if (score >= 3)
-                {
-                    SceneController.LoadScene("EndScene");
-                }
-                else
-                {
-                    print("Granny needs her food");
-                }
+                SceneController.LoadScene("EndScene");
+            }
+            else
+            {
+                print("Granny needs her food");
             }
         }
+    
         if (other.CompareTag("TableCollider1") && score < 1)
         {
             score++;
