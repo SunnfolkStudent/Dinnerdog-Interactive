@@ -105,7 +105,7 @@ public class PlayerInteract : MonoBehaviour
 
         if (other.CompareTag("PortalKitchen3"))
         {
-            if (score >= 3)
+            if (score >= 1)
             {
                 SceneController.LoadScene("Level3");
             }
