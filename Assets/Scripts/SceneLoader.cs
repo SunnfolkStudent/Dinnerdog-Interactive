@@ -40,7 +40,7 @@ public class SceneLoader : MonoBehaviour
             SceneController.LoadScene("Level3");
         }
 
-        if (playerInteract.score >= 1)
+        if (playerInteract.score >= 3)
         {
             SceneController.LoadScene("EndScene");
         }
