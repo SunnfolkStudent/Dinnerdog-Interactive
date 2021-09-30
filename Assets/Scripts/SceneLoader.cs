@@ -24,17 +24,17 @@ public class SceneLoader : MonoBehaviour
         {
             SceneController.LoadScene("Kitchen2");
         }
-
-        if (playerInteract.score >= 3)
-        {
-            SceneController.LoadScene("Kitchen3");
-        }
-
+        
         if (playerInteract.score >= 1)
         {
             SceneController.LoadScene("Level2");
         }
-
+        
+        if (playerInteract.score >= 3)
+        {
+            SceneController.LoadScene("Kitchen3");
+        }
+        
         if (playerInteract.score >= 1)
         {
             SceneController.LoadScene("Level3");
