@@ -41,8 +41,8 @@ public class PlayerInteract : MonoBehaviour
         {
             if (score <= 3)
             {
-                canInteract = true;
                 print("Press F to Exit");
+                canInteract = true;
             }
         }
     }
