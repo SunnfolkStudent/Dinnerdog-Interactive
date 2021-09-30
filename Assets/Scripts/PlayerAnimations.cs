@@ -20,6 +20,7 @@ public class PlayerAnimations : MonoBehaviour
     private static readonly int CanWalk = Animator.StringToHash("canWalk");
     private static readonly int isBarking = Animator.StringToHash("isBarking");
     private static readonly int isDashing = Animator.StringToHash("isDashing");
+    
 
     private void Start()
     {
@@ -31,7 +32,7 @@ public class PlayerAnimations : MonoBehaviour
         _AudioSource = GetComponent<AudioSource>();
         _attack = GetComponent<PlayerAttack>();
     }
-
+    
     private void Update()
     {
         if (_input.moveVector != Vector2.zero && !_playerMovement.isDashing)
