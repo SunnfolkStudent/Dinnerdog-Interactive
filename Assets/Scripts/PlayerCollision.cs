@@ -1,6 +1,9 @@
 using System;
 using Managers;
+
+#if UNITY_EDITOR
 using UnityEditor.UIElements;
+#endif
 using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
