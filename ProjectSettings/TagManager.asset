@@ -20,6 +20,8 @@ TagManager:
   - PortalLevel2
   - PortalLevel3
   - RandomTag404
+  - TableCollider1
+  - TableCollider2
   layers:
   - Default
   - TransparentFX

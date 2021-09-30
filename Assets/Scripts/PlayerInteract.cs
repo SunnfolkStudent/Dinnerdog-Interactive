@@ -105,5 +105,9 @@ public class PlayerInteract : MonoBehaviour
                 }
             }
         }
+        if (other.CompareTag("TableCollider1") && score < 1)
+        {
+            score++;
+        }
     }
 }
