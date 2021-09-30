@@ -43,13 +43,6 @@ public class PlayerAudio : MonoBehaviour
     private void ding()
     {
         _AudioSource.PlayOneShot(Ding);
-    }
-
-    private void Update()
-    {
-        if (_AudioSource.)
-        {
-            _sign.text.SetActive(true);
-        }
+        _sign.text.SetActive(true);
     }
 }
