@@ -20,6 +20,8 @@ public class PlayerAnimations : MonoBehaviour
     private static readonly int CanWalk = Animator.StringToHash("canWalk");
     private static readonly int isBarking = Animator.StringToHash("isBarking");
     private static readonly int isDashing = Animator.StringToHash("isDashing");
+
+    public Animator _barkAnim;
     
 
     private void Start()
@@ -31,6 +33,7 @@ public class PlayerAnimations : MonoBehaviour
         _audio = GetComponent<PlayerAudio>();
         _AudioSource = GetComponent<AudioSource>();
         _attack = GetComponent<PlayerAttack>();
+
     }
     
     private void Update()
@@ -39,6 +42,9 @@ public class PlayerAnimations : MonoBehaviour
         {
             _animator.SetFloat(_sideWalk, _input.moveVector.x);
             _animator.SetFloat(_upDown, _input.moveVector.y);
+            
+            _barkAnim.SetFloat(_sideWalk, _input.moveVector.x);
+            _barkAnim.SetFloat(_upDown, _input.moveVector.y);
             _animator.SetBool(CanWalk, true);
         }
         else
@@ -49,6 +55,7 @@ public class PlayerAnimations : MonoBehaviour
         if (_input.attack && _attack.canAttack)
         {
             _animator.SetBool(isBarking, true);
+            _barkAnim.Play("Bark");
         }
         else
         {

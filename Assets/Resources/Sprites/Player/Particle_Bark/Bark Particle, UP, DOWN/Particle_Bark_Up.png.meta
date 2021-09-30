@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 6065f92643eda4d4ca597a589b0c5467
+guid: a82c085535ae4c94d91e01946ccf7485
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9164443794826452989
-    second: Particle_Bark_0
+      213: -6148407612981769008
+    second: Particle_Bark_Up_0
   - first:
-      213: 3726901547383714753
-    second: Particle_Bark_1
+      213: 4822192929419927841
+    second: Particle_Bark_Up_1
   - first:
-      213: 6779092114152211047
-    second: Particle_Bark_2
+      213: -192484866466555624
+    second: Particle_Bark_Up_2
   - first:
-      213: 7769068296517284700
-    second: Particle_Bark_3
+      213: -7865822343609478055
+    second: Particle_Bark_Up_3
   - first:
-      213: 3355349131971571459
-    second: Particle_Bark_4
+      213: -4680273519586771820
+    second: Particle_Bark_Up_4
   - first:
-      213: 5301340099715871267
-    second: Particle_Bark_5
+      213: 5002558966749114605
+    second: Particle_Bark_Up_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -121,127 +121,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Particle_Bark_0
+      name: Particle_Bark_Up_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
         height: 32
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dffd9aa7315ae2f70800000000000000
-      internalID: 9164443794826452989
+      spriteID: 0dc0ae50ad77caaa0800000000000000
+      internalID: -6148407612981769008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Particle_Bark_1
+      name: Particle_Bark_Up_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 32
         height: 32
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c3f8ac163d98b330800000000000000
-      internalID: 3726901547383714753
+      spriteID: 121a9749beedbe240800000000000000
+      internalID: 4822192929419927841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Particle_Bark_2
+      name: Particle_Bark_Up_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 65
         y: 0
         width: 32
         height: 32
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 762c1b35c5c241e50800000000000000
-      internalID: 6779092114152211047
+      spriteID: 8195f95a808245df0800000000000000
+      internalID: -192484866466555624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Particle_Bark_3
+      name: Particle_Bark_Up_3
       rect:
         serializedVersion: 2
         x: 96
         y: 0
         width: 32
         height: 32
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5379a1147641db60800000000000000
-      internalID: 7769068296517284700
+      spriteID: 95493ded04cf6d290800000000000000
+      internalID: -7865822343609478055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Particle_Bark_4
+      name: Particle_Bark_Up_4
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 32
         height: 32
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30fa4941248909e20800000000000000
-      internalID: 3355349131971571459
+      spriteID: 49cfc55f7045c0fb0800000000000000
+      internalID: -4680273519586771820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Particle_Bark_5
+      name: Particle_Bark_Up_5
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 32
         height: 32
-      alignment: 5
-      pivot: {x: 1, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3223915abb4229940800000000000000
-      internalID: 5301340099715871267
+      spriteID: de0b60520e8ac6540800000000000000
+      internalID: 5002558966749114605
       vertices: []
       indices: 
       edges: []

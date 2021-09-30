@@ -17514,14 +17514,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 3240130474173057197, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4764113460085336839, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9137626312828446036, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
       propertyPath: heart1
       value: 
