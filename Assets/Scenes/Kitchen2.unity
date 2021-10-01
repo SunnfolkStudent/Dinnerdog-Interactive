@@ -973,7 +973,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 584328522}
   m_LocalRotation: {x: -0, y: -0, z: 0.99999726, w: -0.0023422125}
-  m_LocalPosition: {x: 29.9497, y: -7.3695, z: 0}
+  m_LocalPosition: {x: 29.95, y: -7.13, z: 0}
   m_LocalScale: {x: 2.4009302, y: 1.2882309, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2332,6 +2332,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
+--- !u!114 &1483466344 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3240130474173057193, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
+  m_PrefabInstance: {fileID: 1483466343}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f950c84c898693041a05f135f1879c89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1492918262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12670,6 +12681,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1764759761978193939, guid: ab7cc3fb0423b2e49b772d356f9e46de, type: 3}
+      propertyPath: _input
+      value: 
+      objectReference: {fileID: 1483466344}
     - target: {fileID: 9214588245281564208, guid: ab7cc3fb0423b2e49b772d356f9e46de, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -12745,7 +12760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 393585417515559002, guid: 932a6014c38ba4d4cadc4cdd3ab8238d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.92
+      value: -7.53
       objectReference: {fileID: 0}
     - target: {fileID: 393585417515559002, guid: 932a6014c38ba4d4cadc4cdd3ab8238d, type: 3}
       propertyPath: m_LocalPosition.z
