@@ -6,11 +6,13 @@ using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
 {
 
-    private PlayerInput _input;
+    public PlayerInput _input;
+    
 
-    private void Start()
+    private void Update()
     {
-        _input = GetComponent<PlayerInput>();
+        QuitGame();
+        RestartGame();
     }
 
     public static void LoadScene(string sceneName)
@@ -38,10 +40,12 @@ public class SceneController : MonoBehaviour
 
     public void RestartGame()
     {
-        if (_input.resart)
+        if (_input.restart)
         {
             SceneManager.LoadScene("Kitchen1 Menu");
+            print("restart selected");
             PlayerInteract.score = 0;
         }
     }
+    
 }
