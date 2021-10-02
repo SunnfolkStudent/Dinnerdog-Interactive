@@ -206,6 +206,7 @@ MonoBehaviour:
   interact: 0
   attack: 0
   quit: 0
+  restart: 0
 --- !u!114 &3240130474173057198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -316,8 +317,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 0.7}
+  m_Offset: {x: 0.0017386068, y: -0.010431172}
+  m_Size: {x: 0.926985, y: 0.6304616}
   m_Direction: 1
 --- !u!82 &1926513159242761753
 AudioSource:
@@ -337,7 +338,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 10
+  Priority: 59
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
