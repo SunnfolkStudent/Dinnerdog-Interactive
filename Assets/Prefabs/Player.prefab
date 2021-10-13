@@ -112,6 +112,7 @@ GameObject:
   - component: {fileID: 9137626312828446036}
   - component: {fileID: 103192294}
   - component: {fileID: 1173331173}
+  - component: {fileID: 3240130474701748944}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -317,8 +318,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0017386068, y: -0.010431172}
-  m_Size: {x: 0.926985, y: 0.6304616}
+  m_Offset: {x: 0.07704345, y: -0.010431181}
+  m_Size: {x: 0.7763776, y: 0.6304627}
   m_Direction: 1
 --- !u!82 &1926513159242761753
 AudioSource:
@@ -485,6 +486,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3240130474701748944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3240130474173057197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6677d96a8790de429757501783f1352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tmpText: {fileID: 0}
 --- !u!1 &3585173578830232975
 GameObject:
   m_ObjectHideFlags: 0

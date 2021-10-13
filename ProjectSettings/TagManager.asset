@@ -23,6 +23,7 @@ TagManager:
   - TableCollider1
   - TableCollider2
   - Cookie
+  - AttackCollider
   layers:
   - Default
   - TransparentFX

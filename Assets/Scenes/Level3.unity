@@ -17955,6 +17955,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3585173578830232975, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
+      propertyPath: m_TagString
+      value: AttackCollider
+      objectReference: {fileID: 0}
     - target: {fileID: 9137626312828446036, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
       propertyPath: heart1
       value: 
@@ -18514,6 +18518,27 @@ RectTransform:
   m_AnchoredPosition: {x: 607, y: 494}
   m_SizeDelta: {x: 736.487, y: 10.748}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2090622157 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3585173578830232975, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
+  m_PrefabInstance: {fileID: 1899059089}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &2090622161
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090622157}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.043287277, y: -0.07858908}
+  m_Size: {x: 0.17976761, y: 0.27021313}
+  m_Direction: 0
 --- !u!114 &356280044724288126
 MonoBehaviour:
   m_ObjectHideFlags: 0

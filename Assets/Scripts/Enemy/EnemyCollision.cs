@@ -15,4 +15,12 @@ public class EnemyCollision : MonoBehaviour
       _enemyCollision = GetComponent<PlayerCollision>();
       _enemyHealth = GetComponent<EnemyHealth>();
    }
+   
+   /*private void OnTriggerEnter2D(Collider2D other)
+   {
+      if (other.CompareTag("AttackCollider"))
+      {
+         GetComponent<EnemyHealth>().EnemyTakeDamage(1);
+      }
+   }*/
 }
