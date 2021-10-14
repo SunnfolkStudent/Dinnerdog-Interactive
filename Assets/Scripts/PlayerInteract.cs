@@ -133,8 +133,9 @@ public class PlayerInteract : MonoBehaviour
 
     }
 
-    private void Update()
+   /* private void Update()
     {
         print("Current score: " +score);
     }
+    */
 }

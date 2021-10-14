@@ -12,6 +12,7 @@ public class signSystem : MonoBehaviour
 {
     public GameObject text;
     public GameObject title;
+    public GameObject anykey;
     public GameObject image;
 
     public GameObject light1;
@@ -25,6 +26,7 @@ public class signSystem : MonoBehaviour
     {
         text.SetActive(false);
         title.SetActive(true);
+        anykey.SetActive(true);
         image.SetActive(true);
         light1.SetActive(false);
         light2.SetActive(false);
@@ -56,6 +58,7 @@ public class signSystem : MonoBehaviour
         if (Keyboard.current.anyKey.wasPressedThisFrame)
         {
             title.SetActive(false);
+            anykey.SetActive(false);
             image.SetActive(false);
             light1.SetActive(true);
             light2.SetActive(true);
