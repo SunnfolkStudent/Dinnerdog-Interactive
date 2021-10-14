@@ -266,6 +266,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _barkAnim: {fileID: 1321235260314853425}
+  _horizontal: {fileID: 3240130474173057192}
+  _vertical: {fileID: 0}
 --- !u!114 &4764113460085336839
 MonoBehaviour:
   m_ObjectHideFlags: 0
