@@ -162,7 +162,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -193.75, y: -107.54}
+  m_AnchoredPosition: {x: -194.01, y: -107.54}
   m_SizeDelta: {x: 10.4529, y: 1.4769}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &34125320
@@ -185,7 +185,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Reminder: Dogs can''t eat cookies'
+  m_text: 'Reminder: Dogs can''t eat chocolate
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a4c3050752aefca49a9a1dcc79700477, type: 2}
   m_sharedMaterial: {fileID: 4285129280632057020, guid: a4c3050752aefca49a9a1dcc79700477, type: 2}
@@ -97920,6 +97922,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3707588984408031603, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
+      propertyPath: _vertical
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3240130474173057194, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
       propertyPath: m_RootOrder
       value: 13
