@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 4764113460085336839}
   - component: {fileID: 3240130474173057189}
   - component: {fileID: 3240130474173057192}
+  - component: {fileID: 3276960468089100821}
   - component: {fileID: 1926513159242761753}
   - component: {fileID: 1969152875107388725}
   - component: {fileID: 9137626312828446036}
@@ -267,7 +268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _barkAnim: {fileID: 1321235260314853425}
   _horizontal: {fileID: 3240130474173057192}
-  _vertical: {fileID: 0}
+  _vertical: {fileID: 3276960468089100821}
 --- !u!114 &4764113460085336839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,6 +324,22 @@ CapsuleCollider2D:
   m_Offset: {x: 0.09912271, y: -0.054589648}
   m_Size: {x: 0.7322201, y: 0.4735787}
   m_Direction: 1
+--- !u!70 &3276960468089100821
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3240130474173057197}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.004477501, y: -0.018342555}
+  m_Size: {x: 0.37125874, y: 0.6275064}
+  m_Direction: 0
 --- !u!82 &1926513159242761753
 AudioSource:
   m_ObjectHideFlags: 0
