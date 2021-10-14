@@ -10,6 +10,7 @@ public class PlayerInteract : MonoBehaviour
 {
 
     public static float score = 0f;
+    public static bool cookiedeath = false;
     [Space(5)] 
     public string MainMenu;
     public string WinSceen;
@@ -48,6 +49,7 @@ public class PlayerInteract : MonoBehaviour
         {
             HealthManager.SetLives(0);
             Destroy(other.gameObject);
+            cookiedeath = true;
         }
 
         if (other.CompareTag("Food"))
