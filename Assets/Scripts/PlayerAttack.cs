@@ -63,7 +63,7 @@ public class PlayerAttack : MonoBehaviour
             {
                 //        print("attack input detected");
                 
-                /*if (_moveDirection == 2)
+                if (_moveDirection == 2)
                 {
                     //    print("attack up");
                     Collider2D[] enemiesToDamageUp =
@@ -101,7 +101,7 @@ public class PlayerAttack : MonoBehaviour
                         enemiesToDamageDown[i].GetComponent<EnemyHealth>().EnemyTakeDamage(damage);
                     }
                 }
-*/
+
                 timeBtwAttack = startTimeBtwAttack;
             }
             
