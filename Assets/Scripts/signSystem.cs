@@ -17,6 +17,8 @@ public class signSystem : MonoBehaviour
     public GameObject light1;
     public GameObject light2;
 
+    public GameObject propercookietext;
+
    
 
     private void Start()
@@ -26,11 +28,13 @@ public class signSystem : MonoBehaviour
         image.SetActive(true);
         light1.SetActive(false);
         light2.SetActive(false);
+        propercookietext.SetActive(false);
     }
 
     private void Update()
     {
         HUD();
+        cookietext();
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -55,6 +59,18 @@ public class signSystem : MonoBehaviour
             image.SetActive(false);
             light1.SetActive(true);
             light2.SetActive(true);
+        }
+    }
+
+    private void cookietext()
+    {
+        if (PlayerInteract.cookiedeath)
+        {
+            propercookietext.SetActive(true);
+        }
+        else
+        {
+            propercookietext.SetActive(false);
         }
     }
 }
