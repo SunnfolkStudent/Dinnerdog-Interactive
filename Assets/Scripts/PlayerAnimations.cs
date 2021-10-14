@@ -22,10 +22,15 @@ public class PlayerAnimations : MonoBehaviour
     private static readonly int isDashing = Animator.StringToHash("isDashing");
 
     public Animator _barkAnim;
-    
+
+
+    public CapsuleCollider2D _horizontal;
+    public CapsuleCollider2D _vertical;
 
     private void Start()
     {
+        _vertical.enabled = false;
+        
         _animator = GetComponent<Animator>();
         _playerMovement = GetComponent<PlayerMovement>();
         _rigibody = GetComponent<Rigidbody2D>();
@@ -41,8 +46,10 @@ public class PlayerAnimations : MonoBehaviour
         {
             _animator.SetFloat(_sideWalk, _input.moveVector.x);
             _animator.SetFloat(_upDown, _input.moveVector.y);
+            
             _barkAnim.SetFloat(_sideWalk, _input.moveVector.x);
             _barkAnim.SetFloat(_upDown, _input.moveVector.y);
+            
             _animator.SetBool(CanWalk, true);
         }
         else
@@ -77,5 +84,17 @@ public class PlayerAnimations : MonoBehaviour
         {
             transform.localScale = new Vector3(1f, 1f);
         }
+    }
+
+    public void SetHorizontalCollision()
+    {
+        _horizontal.enabled = true;
+        _vertical.enabled = false;
+    }
+
+    public void SetVerticalCollision()
+    {
+        _horizontal.enabled = false;
+        _vertical.enabled = true;
     }
 }

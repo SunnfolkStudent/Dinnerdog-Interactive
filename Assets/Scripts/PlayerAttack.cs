@@ -56,16 +56,16 @@ public class PlayerAttack : MonoBehaviour
         
         if (timeBtwAttack <= 0)
         {
-            print("time between is OK");
+            //    print("time between is OK");
             canAttack = true;
             //then you can attack
             if (_Input.attack)
             {
-                print("attack input detected");
+                //        print("attack input detected");
                 
                 /*if (_moveDirection == 2)
                 {
-                    print("attack up");
+                    //    print("attack up");
                     Collider2D[] enemiesToDamageUp =
                         Physics2D.OverlapCircleAll(attackPosUp.position, attackRange, whatIsEnemies);
 

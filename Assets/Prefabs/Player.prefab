@@ -179,7 +179,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: -1981338350617023574, guid: 4cb69150fd7e4724eb93249344c37015, type: 3}
+  m_Sprite: {fileID: 7199004989353939329, guid: 7264f7446a8ffe846bf22ab5e4923932, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -266,6 +266,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _barkAnim: {fileID: 1321235260314853425}
+  _horizontal: {fileID: 3240130474173057192}
+  _vertical: {fileID: 0}
 --- !u!114 &4764113460085336839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,8 +320,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.07704345, y: -0.010431181}
-  m_Size: {x: 0.7763776, y: 0.6304627}
+  m_Offset: {x: 0.09912271, y: -0.054589648}
+  m_Size: {x: 0.7322201, y: 0.4735787}
   m_Direction: 1
 --- !u!82 &1926513159242761753
 AudioSource:
