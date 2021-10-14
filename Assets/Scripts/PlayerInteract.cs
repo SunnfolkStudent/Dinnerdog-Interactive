@@ -34,29 +34,27 @@ public class PlayerInteract : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        {
-            
-        }
         if (other.CompareTag("DogTreat"))
         {
             HealthManager.lives++;
+            _audio.food();
             Destroy(other.gameObject);
-            _audio.heal();
-            
         }
 
         if (other.CompareTag("Cookie"))
         {
             HealthManager.SetLives(0);
-            Destroy(other.gameObject);
             cookiedeath = true;
+            Destroy(other.gameObject);
+            
         }
 
         if (other.CompareTag("Food"))
         {
             score++;
-            Destroy(other.gameObject);
             _audio.food();
+            Destroy(other.gameObject);
+            
         }
         
         /*
