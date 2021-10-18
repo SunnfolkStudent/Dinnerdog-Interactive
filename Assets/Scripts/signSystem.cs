@@ -41,7 +41,7 @@ public class signSystem : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.CompareTag("Player") /*&& PlayerInteract.score <= 0*/)
+        if (other.CompareTag("Player"))
         {
             text.SetActive(true);
         }

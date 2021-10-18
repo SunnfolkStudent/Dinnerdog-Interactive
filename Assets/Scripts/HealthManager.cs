@@ -10,17 +10,19 @@ namespace Managers
 {
     public class HealthManager : MonoBehaviour
     {
+        
+        [Header("Lives")]
         public static int lives = 3;
-        public int currentLives = lives;
         public int maxLives = 3;
         public GameObject heart3;
         public GameObject heart2;
         public GameObject heart1;
+        
+        [Header("Invincible")]
         public bool isInvincible;
         [SerializeField] private float invincibilityTime = 1f;
         private SceneController _sceneController;
         private PlayerAudio _audio;
-        private PlayerInteract _interact;
 
         private void Awake()
         {
@@ -33,17 +35,11 @@ namespace Managers
             heart2.SetActive(true);
             heart3.SetActive(true);
             _audio = GetComponent<PlayerAudio>();
-            _interact = GetComponent<PlayerInteract>();
         }
 
         public static void SetLives(int value)
         {
             lives = value;
-        }
-
-        public static void AddLives()
-        {
-            lives++;
         }
 
         public void ReduceLives()
@@ -58,7 +54,6 @@ namespace Managers
 
         private void Update()
         {
-            currentLives = lives;
             if (lives > 3)
             {
                 lives = 3;

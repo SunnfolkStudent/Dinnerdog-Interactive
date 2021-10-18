@@ -10,7 +10,7 @@ namespace Managers
 
         private void Start()
         {
-            _tmpText.text = "Food Collected: " + PlayerInteract.score.ToString() + "/3";
+            _tmpText.text = "Food Collected: " + PlayerInteract.score + "/3";
         }
 
         public void SetScoreUI()
@@ -21,7 +21,7 @@ namespace Managers
             }
             else
             {
-                _tmpText.text = "Food Collected: " + PlayerInteract.score.ToString() + "/3";
+                _tmpText.text = "Food Collected: " + PlayerInteract.score + "/3";
             }
         }
 

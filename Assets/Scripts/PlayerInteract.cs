@@ -11,22 +11,14 @@ public class PlayerInteract : MonoBehaviour
 
     public static float score = 0f;
     public static bool cookiedeath = false;
-    [Space(5)] 
-    public string MainMenu;
-    public string WinSceen;
-    public bool canInteract;
+    [Space(5)]
     public GameObject breakfast;
     public GameObject lunch;
 
-    private PlayerInput _input;
-    private HealthManager _health;
-    
     private PlayerAudio _audio;
 
     private void Start()
     {
-        _input = GetComponent<PlayerInput>();
-        _health = GetComponent<HealthManager>();
         breakfast.SetActive(false);
         lunch.SetActive(false);
         _audio = GetComponent<PlayerAudio>();
@@ -37,7 +29,7 @@ public class PlayerInteract : MonoBehaviour
         if (other.CompareTag("DogTreat"))
         {
             HealthManager.lives++;
-            _audio.food();
+            _audio.heal();
             Destroy(other.gameObject);
         }
 
@@ -56,18 +48,7 @@ public class PlayerInteract : MonoBehaviour
             Destroy(other.gameObject);
             
         }
-        
-        /*
-        if (other.CompareTag("Exit"))
-        {
-            if (score <= 3)
-            {
-                print("Press F to Exit");
-                canInteract = true;
-            }
-        }
-        */
-        
+
         if (other.CompareTag("PortalKitchen1"))
         {
             SceneController.LoadScene("Level1");
@@ -130,10 +111,4 @@ public class PlayerInteract : MonoBehaviour
         }
 
     }
-
-   /* private void Update()
-    {
-        print("Current score: " +score);
-    }
-    */
 }

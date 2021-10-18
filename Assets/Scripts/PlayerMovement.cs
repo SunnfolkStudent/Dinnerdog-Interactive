@@ -18,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
     
     [Header("Dash")]
     [SerializeField] private float dashForce = 15f;
-    public float dashTime = 0.3f;  //WaitForSeconds in IEnumerator
     public bool isDashing = false;
     public bool canDash = true;
     [Header("Dash Cooldown")]

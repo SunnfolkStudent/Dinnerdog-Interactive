@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Principal;
 using UnityEngine;
 using Random = System.Random;
 
@@ -11,8 +12,6 @@ public class PlayerAnimations : MonoBehaviour
     private PlayerMovement _playerMovement;
     private Rigidbody2D _rigibody;
     private PlayerInput _input;
-    private PlayerAudio _audio;
-    private AudioSource _AudioSource;
     private PlayerAttack _attack;
 
     private readonly int _sideWalk = Animator.StringToHash("SideWalk");
@@ -24,10 +23,11 @@ public class PlayerAnimations : MonoBehaviour
 
     public Animator _barkAnim;
 
-
+    [Header("Used in player animastions")]
     public CapsuleCollider2D _horizontal;
     public CapsuleCollider2D _vertical;
 
+    [Space(10)]
     public ParticleSystem _particalHorizontal;
     public ParticleSystem _particalVertical;
 
@@ -42,9 +42,8 @@ public class PlayerAnimations : MonoBehaviour
         _playerMovement = GetComponent<PlayerMovement>();
         _rigibody = GetComponent<Rigidbody2D>();
         _input = GetComponent<PlayerInput>();
-        _audio = GetComponent<PlayerAudio>();
-        _AudioSource = GetComponent<AudioSource>();
         _attack = GetComponent<PlayerAttack>();
+        
 
         _module = _particalVertical.velocityOverLifetime;
     }
@@ -80,11 +79,11 @@ public class PlayerAnimations : MonoBehaviour
         {
             _animator.SetBool(isDashing, true);
             
-            if (_input.moveVector.y != 0 && _input.moveVector.x == 0)
+            if (_playerMovement.canDash && _input.moveVector.y != 0 && _input.moveVector.x == 0)
             {
                 SetParticalVertical();
             }
-            else
+            else if (_playerMovement.canDash)
             {
                 SetParticalHorizontal();
             }
@@ -104,9 +103,11 @@ public class PlayerAnimations : MonoBehaviour
         }
     }
 
+    
+    // Used in player animations as an event. Don't remove.
     public void SetHorizontalCollision()
     {
-        _horizontal.enabled = true;
+        _horizontal.enabled = true;                
         _vertical.enabled = false;
     }
 
@@ -115,6 +116,7 @@ public class PlayerAnimations : MonoBehaviour
         _horizontal.enabled = false;
         _vertical.enabled = true;
     }
+    // Used in player animations as an event. Don't remove.
 
     public void SetParticalHorizontal()
     {
@@ -132,6 +134,5 @@ public class PlayerAnimations : MonoBehaviour
             _module.y = 0.3f;
         }
         _particalVertical.Play();
-        
     }
 }

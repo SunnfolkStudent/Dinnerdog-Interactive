@@ -6588,11 +6588,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5938709240377611025, guid: bb2007c9317a73c458783bd227bf43e2, type: 3}
   m_PrefabInstance: {fileID: 5938709239906020885}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &670263105 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 8332601246286927804, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
-  m_PrefabInstance: {fileID: 3240130474701748941}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &676848228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -82446,11 +82441,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7165953658917216943, guid: 47cbd5142c8557d42a2a75d5752410e3, type: 3}
   m_PrefabInstance: {fileID: 540790626}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &1991530554 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 7454607856782470282, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
-  m_PrefabInstance: {fileID: 3240130474701748941}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1994134614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -97965,14 +97955,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -3707588984408031603, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
-      propertyPath: _particalVertical
-      value: 
-      objectReference: {fileID: 670263105}
-    - target: {fileID: -3707588984408031603, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
-      propertyPath: _particalHorizontal
-      value: 
-      objectReference: {fileID: 1991530554}
     - target: {fileID: 103192294, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
       propertyPath: lunch
       value: 
@@ -98033,26 +98015,6 @@ PrefabInstance:
       propertyPath: _tmpText
       value: 
       objectReference: {fileID: 469316603}
-    - target: {fileID: 7454607856782470282, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
-      propertyPath: lengthInSec
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7454607856782470282, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
-      propertyPath: VelocityModule.x.scalar
-      value: -0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7454607856782470282, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
-      propertyPath: VelocityModule.inWorldSpace
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8332601246286927804, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
-      propertyPath: VelocityModule.y.scalar
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8332601246286927804, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
-      propertyPath: VelocityModule.inWorldSpace
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9137626312828446036, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
       propertyPath: heart1
       value: 

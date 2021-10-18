@@ -12,9 +12,4 @@ public class PlayerParticlas : MonoBehaviour
     {
         DustParticals = _dustParticals.GetComponent<ParticleSystem>();
     }
-
-    public static void CreatDuse()
-    {
-        DustParticals.Play();
-    }
 }

@@ -6,31 +6,26 @@ using Random = UnityEngine.Random;
 
 public class PlayerAudio : MonoBehaviour
 {
-    // public AudioClip Jump;
     private AudioSource _AudioSource;
-    private PlayerInput _Input;
-    private PlayerMovement _playerMovement;
-    private PlayerCollision _collision;
-    private PlayerAnimations _animations;
     private signSystem _sign;
 
-    public AudioClip BIGDOG;
-    public AudioClip GrannyTrans;
-    public AudioClip Ding;
+    [Header("Player")]
+    public AudioClip BIGDOG; 
     public AudioClip Damage;
     public AudioClip Heal;
     public AudioClip Food;
+    
+    [Header("Grandma")]
+    public AudioClip GrannyTrans;
+    public AudioClip Ding;
+   
 
     private void Start()
     {
         _AudioSource = GetComponent<AudioSource>();
-        _Input = GetComponent<PlayerInput>();
-        _playerMovement = GetComponent<PlayerMovement>();
-        _collision = GetComponent<PlayerCollision>();
-        _animations = GetComponent<PlayerAnimations>();
         _sign = GetComponent<signSystem>();
     }
-    private void BarkAudio()
+    private void BarkAudio() //Event in player bark animation
     {
         if (!_AudioSource.isPlaying)
         {
@@ -38,12 +33,12 @@ public class PlayerAudio : MonoBehaviour
             _AudioSource.PlayOneShot(BIGDOG);   
         }
     }
-    private void grandma()
+    private void grandma()  //Event in grandma animation
     {
         _AudioSource.PlayOneShot(GrannyTrans);
     }
 
-    private void ding()
+    private void ding()  //Event in grandma animation
     {
         _AudioSource.PlayOneShot(Ding);
         _sign.text.SetActive(true);

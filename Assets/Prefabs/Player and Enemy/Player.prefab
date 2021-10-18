@@ -5035,7 +5035,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   dashForce: 15
-  dashTime: 0.3
   isDashing: 0
   canDash: 1
   cooldown: 0.7
@@ -5093,11 +5092,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BIGDOG: {fileID: 8300000, guid: 88eafff3a5b814142a15ed8e8b333ba8, type: 3}
-  GrannyTrans: {fileID: 0}
-  Ding: {fileID: 0}
   Damage: {fileID: 8300000, guid: ac1f842a0dcf8a744ad851eaaf20f892, type: 3}
   Heal: {fileID: 8300000, guid: 929281e888dafad4588045c0e46801b5, type: 3}
   Food: {fileID: 8300000, guid: 606eaacbdf7a9ee4cba600c16b138bc7, type: 3}
+  GrannyTrans: {fileID: 0}
+  Ding: {fileID: 0}
 --- !u!50 &3240130474173057189
 Rigidbody2D:
   serializedVersion: 4
@@ -5273,7 +5272,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38f668b009ce8ee4a9ea828db5645303, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLives: 3
   maxLives: 3
   heart3: {fileID: 0}
   heart2: {fileID: 0}
