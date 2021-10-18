@@ -14798,6 +14798,8 @@ Transform:
   - {fileID: 739843587}
   - {fileID: 3040750600627007853}
   - {fileID: 1157115534}
+  - {fileID: 1220118938}
+  - {fileID: 1059868697}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15765,6 +15767,36 @@ Transform:
   m_Father: {fileID: 779119703}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -29.792}
+--- !u!1 &1059868696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1059868697}
+  m_Layer: 0
+  m_Name: Used for dog interact (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1059868697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059868696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 779119703}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1060316429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16174,6 +16206,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6961512113931499390, guid: 2d5250d960aa7c648a763c716172b61b, type: 3}
   m_PrefabInstance: {fileID: 1207513714}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1220118937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1220118938}
+  m_Layer: 0
+  m_Name: Used for dog interact
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1220118938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220118937}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 779119703}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1248830300
 GameObject:
   m_ObjectHideFlags: 0
@@ -18095,6 +18157,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 103192294, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
+      propertyPath: lunch
+      value: 
+      objectReference: {fileID: 1059868696}
+    - target: {fileID: 103192294, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
+      propertyPath: breakfast
+      value: 
+      objectReference: {fileID: 1220118937}
     - target: {fileID: 1173331173, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
       propertyPath: m_Enabled
       value: 1
