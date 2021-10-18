@@ -9572,6 +9572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3240130474173057198, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
+      propertyPath: whatIsPit.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
     - target: {fileID: 3240130474701748944, guid: 9220fccb998a2a941b80460e2025663b, type: 3}
       propertyPath: _tmpText
       value: 
