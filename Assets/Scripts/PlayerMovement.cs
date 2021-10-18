@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
     private IEnumerator Dash()
     {
         isDashing = true;
-        print("dash");
+        // print("dash");
         _Rigidbody2D.velocity = _Input.moveVector * dashForce;
         yield return new WaitForSeconds(0.3f);
         _Rigidbody2D.velocity = Vector2.zero;
@@ -61,10 +61,10 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator DashCooldown()
     {
-        print("Dash cooldown initiated");
+        // print("Dash cooldown initiated");
         canDash = false;
         yield return new WaitForSeconds(cooldown);
-        print("dash cooldown is over");
+        // print("dash cooldown is over");
         canDash = true;
     }
     private void PosTime()

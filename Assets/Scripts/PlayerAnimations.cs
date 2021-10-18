@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -27,10 +28,16 @@ public class PlayerAnimations : MonoBehaviour
     public CapsuleCollider2D _horizontal;
     public CapsuleCollider2D _vertical;
 
+    public ParticleSystem _particalHorizontal;
+    public ParticleSystem _particalVertical;
+
+    private ParticleSystem.VelocityOverLifetimeModule _module;
+
     private void Start()
     {
         _vertical.enabled = false;
-        
+        _particalVertical.Stop();
+
         _animator = GetComponent<Animator>();
         _playerMovement = GetComponent<PlayerMovement>();
         _rigibody = GetComponent<Rigidbody2D>();
@@ -38,6 +45,8 @@ public class PlayerAnimations : MonoBehaviour
         _audio = GetComponent<PlayerAudio>();
         _AudioSource = GetComponent<AudioSource>();
         _attack = GetComponent<PlayerAttack>();
+
+        _module = _particalVertical.velocityOverLifetime;
     }
     
     private void Update()
@@ -70,6 +79,15 @@ public class PlayerAnimations : MonoBehaviour
         if (_input.dash)
         {
             _animator.SetBool(isDashing, true);
+            
+            if (_input.moveVector.y != 0 && _input.moveVector.x == 0)
+            {
+                SetParticalVertical();
+            }
+            else
+            {
+                SetParticalHorizontal();
+            }
         }
         else
         {
@@ -96,5 +114,24 @@ public class PlayerAnimations : MonoBehaviour
     {
         _horizontal.enabled = false;
         _vertical.enabled = true;
+    }
+
+    public void SetParticalHorizontal()
+    {
+        _particalHorizontal.Play();
+    }
+
+    public void SetParticalVertical()
+    {
+        if (_rigibody.velocity.y > 0)
+        {
+            _module.y = -0.3f;
+        }
+        else
+        {
+            _module.y = 0.3f;
+        }
+        _particalVertical.Play();
+        
     }
 }
