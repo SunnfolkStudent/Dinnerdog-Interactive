@@ -6,16 +6,6 @@ using UnityEngine;
 
 public class EnemyCollision : MonoBehaviour
 {
-   private PlayerCollision _enemyCollision;
-   private EnemyHealth _enemyHealth;
-   
-   
-   private void Start()
-   {
-      _enemyCollision = GetComponent<PlayerCollision>();
-      _enemyHealth = GetComponent<EnemyHealth>();
-   }
-   
    private void OnTriggerEnter2D(Collider2D other)
    {
       if (other.CompareTag("AttackCollider"))

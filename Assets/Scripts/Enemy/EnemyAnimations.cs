@@ -8,7 +8,6 @@ public class EnemyAnimations : MonoBehaviour
 {
     private Animator _animator;
     private EnemyMovement _enemyMovement;
-    private Rigidbody2D _rigibody;
 
     private readonly int _sideWalk = Animator.StringToHash("SideWalk");
     private readonly int _upDown = Animator.StringToHash("UpDown");
@@ -17,7 +16,6 @@ public class EnemyAnimations : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _enemyMovement = GetComponent<EnemyMovement>();
-        _rigibody = GetComponent<Rigidbody2D>();
     }
 
     private void Update()

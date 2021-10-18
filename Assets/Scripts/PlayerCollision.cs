@@ -11,6 +11,7 @@ public class PlayerCollision : MonoBehaviour
     private PlayerMovement _movement;
     
     private HealthManager healthManager;
+  
 
     private void Start()
     {

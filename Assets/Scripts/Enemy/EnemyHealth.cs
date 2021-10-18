@@ -15,21 +15,6 @@ namespace Managers
         {
             enemyLives = maxEnemyLives;
         }
-        
-        public  void SetEnemyLives(int value)
-        {
-            enemyLives = value;
-        }
-        
-        public void AddEnemyLives()
-        {
-            enemyLives++;
-        }
-        
-        public void ReduceEnemyLives()
-        {
-            enemyLives--;
-        }
 
         public void EnemyTakeDamage(int damage)
         {
