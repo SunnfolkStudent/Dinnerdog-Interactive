@@ -5168,7 +5168,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 59
+  Priority: 65
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -5258,8 +5258,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deb2dec9542d66941afb4a5f57d230bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whatIsPit: Pit
-  whoIsEnemy: Enemy
 --- !u!114 &9137626312828446036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5303,9 +5301,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e011d47ce3154774f8bde6c37dd190a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainMenu: 
-  WinSceen: 
-  canInteract: 0
   breakfast: {fileID: 0}
   lunch: {fileID: 0}
 --- !u!95 &1173331173
